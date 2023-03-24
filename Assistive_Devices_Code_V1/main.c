@@ -24,13 +24,14 @@
 
 void init(void)
 {
-	init_h_bridge();
-	init_servo();
+	init_h_bridge();			// init h brug
+	init_servo();				// init servo
+	sei();					// eneble global interrupts
 }
 
 int main(void)
 {
-	init();
+	init();					// run init function
 
 	// output
 	//bedingingpaneel
