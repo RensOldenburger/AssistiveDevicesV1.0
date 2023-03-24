@@ -9,7 +9,7 @@
 #include <util/delay.h>
 #include <avr/io.h>
 
-#define DEBOUNCE			_delay_ms(20)		// debounce delay voor de knoppen
+#define DEBOUNCE	_delay_ms(20)		// debounce delay voor de knoppen
 
 //schakelaars
 #define home_switch         PA0
@@ -22,31 +22,31 @@
 #define afbouw_knop         PF2			// pin A2
 #define volgende_steiger    PF3			// pin A3
 #define vorige_steiger      PF5			// pin A5
-#define nood_knop	    	PF4			// pin A4
+#define nood_knop	    PF4			// pin A4
 
 
 void init(void)
 {
 	init_h_bridge();									// init h brug
 	init_servo();										// init servo
-	sei();												// eneble global interrupts
+	sei();											// eneble global interrupts
 }
 
 int main(void)
 {
-	init();												// run init function
+	init();				// run init function
 
 	// output
 	DDRK |= (1<<PK7) | (1<<PK6);                        // knipperlichten pin A15 en A14
-    PORTK &= ~(1<<PK7) & ~(1<<PK6);                     // knipperlichten pin A15 en A14 init uit
-    DDRD |= (1<<PD0);                                   // buzzer
-    PORTD &= ~(1<<PD0);                                 // buzzer init uit
-    DDRF |= (1<<PF7);                                   // ledje in de noodknop
-    PORTF |= (1<<PF7);                                  // ledje in de noodknop init uit
+	PORTK &= ~(1<<PK7) & ~(1<<PK6);                     // knipperlichten pin A15 en A14 init uit
+	DDRD |= (1<<PD0);                                   // buzzer
+	PORTD &= ~(1<<PD0);                                 // buzzer init uit
+	DDRF |= (1<<PF7);                                   // ledje in de noodknop
+	PORTF |= (1<<PF7);                                  // ledje in de noodknop init uit
 }
 	//bedingingpaneel
 	PORTF |= (1<<home_knop) | (1<<opbouw_knop) | (1<<afbouw_knop) | (1<<volgende_steiger) | (1<<vorige_steiger);   		// eneble alle knoppen voor input
-	DDRF |= (1<<home_knop) | (1<<opbouw_knop) | (1<<afbouw_knop) | (1<<volgende_steiger) | (1<<vorige_steiger);			// eneble interne pullup resistor
+	DDRF |= (1<<home_knop) | (1<<opbouw_knop) | (1<<afbouw_knop) | (1<<volgende_steiger) | (1<<vorige_steiger);		// eneble interne pullup resistor
 
 	//schakelaars
 	PORTA &= (1<<home_switch);
@@ -62,25 +62,25 @@ int main(void)
         case 0:
             if(!(PINA & (1<<home_switch)))
             {
-				DEBOUNCE;
+		DEBOUNCE;
                 status = 2;
                 break;
             }
             if (PINA &(1<<home_switch))
             {
-				DEBOUNCE;
+		DEBOUNCE;
                 if(!(PINF & (1<<home_knop)))
                 {
-					DEBOUNCE;
-                    status = 1;
-                    break;
+			DEBOUNCE;
+			status = 1;
+			break;
                 }
             }
             break;
         case 1:
             if(!(PINA & (1<<home_switch)))
             {
-				DEBOUNCE;
+		DEBOUNCE;
                 status = 0;
                 break;
             }
@@ -89,13 +89,13 @@ int main(void)
         case 2:
             if(!(PINF & (1<<opbouw_knop)))
             {
-				DEBOUNCE;
+		DEBOUNCE;
                 status = 3;
                 break;
             }
             if(!(PINF & (1<<afbouw_knop)))
             {
-				DEBOUNCE;
+		DEBOUNCE;
                 status = 4;
                 break;
             }
@@ -110,7 +110,7 @@ int main(void)
         case 5:
             if (!(PINA & (1<<top_switch)))
             {
-				DEBOUNCE;
+		DEBOUNCE;
                 h_bridge_set_percentage(0);
                 status = 7;
                 break;
@@ -120,17 +120,17 @@ int main(void)
         case 7:
             if(!(PINF & (1<<volgende_steiger)))
             {
-				DEBOUNCE;
+		DEBOUNCE;
                 status = 9;
             }
             break;
         case 9:
             if(!(PINA & (1<<middel_switch)))
                {
-				   DEBOUNCE;
-                   h_bridge_set_percentage(0);
-                   status = 11;
-                   break;
+			DEBOUNCE;
+			h_bridge_set_percentage(0);
+			status = 11;
+			break;
                }
                h_bridge_set_percentage(-70);
                break;
@@ -142,7 +142,7 @@ int main(void)
         case 13:
             if (!(PINA & (1<<home_switch)))
             {
-				DEBOUNCE;
+		DEBOUNCE;
                 h_bridge_set_percentage(0);
                 status = 2;
                 break;
@@ -152,7 +152,7 @@ int main(void)
         case 4:
             if (!(PINA &(1<<middel_switch)))
             {
-				DEBOUNCE;
+		DEBOUNCE;
                 h_bridge_set_percentage(0);
                 status = 6;
                 break;
@@ -167,7 +167,7 @@ int main(void)
         case 8:
             if(!(PINA & (1<<top_switch)))
             {
-				DEBOUNCE;
+		DEBOUNCE;
                 h_bridge_set_percentage(0);
                 status = 10;
                 break;
@@ -177,14 +177,14 @@ int main(void)
         case 10:
             if(!(PINF &(1<<vorige_steiger)))
             {
-				DEBOUNCE;
+		DEBOUNCE;
                 status = 12;
             }
             break;
         case 12:
             if(!(PINA & (1<<home_switch)))
             {
-				DEBOUNCE;
+		DEBOUNCE;
                 h_bridge_set_percentage(0);
                 status = 14;
                 break;
