@@ -59,10 +59,6 @@ int main(void)
 	PORTF |= (1<<home_knop) | (1<<opbouw_knop) | (1<<afbouw_knop) | (1<<volgende_steiger) | (1<<vorige_steiger);   		// eneble alle knoppen voor input
 	DDRF |= (1<<home_knop) | (1<<opbouw_knop) | (1<<afbouw_knop) | (1<<volgende_steiger) | (1<<vorige_steiger);		// eneble interne pullup resistor
 
-	// buzzer
-	DDRD |= (1<<PD0);                                   // buzzer
-    	PORTD &= ~(1<<PD0);                                 // buzzer init uit
-
 	//schakelaars
 	PORTA &= (1<<home_switch);
 	PORTA &= (1<<top_switch);
