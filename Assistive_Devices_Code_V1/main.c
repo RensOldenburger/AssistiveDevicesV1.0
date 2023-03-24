@@ -24,6 +24,17 @@
 #define vorige_steiger      PF5			// pin A5
 #define nood_knop	    PF4			// pin A4
 
+void buzzer(signed char power)                          // buzzer function
+{                                                       // als je een '1' meegeeft aan de functie gaat de buzzer aan
+    if (power == 1)                                     // als je een '0' meegeeft aan de functie gaat de buzzer uit
+    {
+        PORTD |= (1<<PD0);                              // buzzer aan
+    }
+    else if (power == 0)
+    {
+        PORTD &= ~(1<<PD0);                             // buzzer uit
+    }
+}
 
 void init(void)
 {
