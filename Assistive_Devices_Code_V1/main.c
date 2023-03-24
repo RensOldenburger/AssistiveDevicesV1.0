@@ -201,6 +201,7 @@ int main(void)
                 break;
             }
             h_bridge_set_percentage(-70);
+	    break;
         case 14:
             servo1_set_percentage(-50);
             servo2_set_percentage(-50);
