@@ -17,33 +17,33 @@
 // The settings below are for the Mega, modify
 // in case you want to use other pins
 //H_brug 1
-#define PORT_RPWM	PORTB
-#define PIN_RPWM	PB5     //( OC1A/PCINT5 )       digital pin 11
-#define DDR_RPWM	DDRB
+#define PORT_RPWM	PORTE
+#define PIN_RPWM	PE4     //( OC1A/PCINT5 )       digital pin 2
+#define DDR_RPWM	DDRE
 
-#define PORT_LPWM	PORTB
-#define PIN_LPWM	PB4     //( OC2A/PCINT4 )       digital pin 10
-#define DDR_LPWM	DDRB
-//H_brug 2
-#define PORT_RPWM1	PORTL
-#define PIN_RPWM1	PL3     //  digital pin 46
-#define DDR_RPWM1	DDRL
-
-#define PORT_LPWM1	PORTL
-#define PIN_LPWM1	PL4     //  digital pin 45
-#define DDR_LPWM1	DDRL
+#define PORT_LPWM	PORTE
+#define PIN_LPWM	PE5     //( OC2A/PCINT4 )       digital pin 3
+#define DDR_LPWM	DDRE
+////H_brug 2
+//#define PORT_RPWM1	PORTG
+//#define PIN_RPWM1	PG5     //  digital pin 46
+//#define DDR_RPWM1	DDRG
+//
+//#define PORT_LPWM1	PORTE
+//#define PIN_LPWM1	PE3     //  digital pin 45
+//#define DDR_LPWM1	DDRE
 //H_brug 3
-#define PORT_RPWM2	PORTH
-#define PIN_RPWM2   PH6     //( OC4A )              digital pin 9
-#define DDR_RPWM2	DDRH
+#define PORT_RPWM2	PORTG
+#define PIN_RPWM2   PG5     //( OC4A )              digital pin 4
+#define DDR_RPWM2	DDRG
 
-#define PORT_LPWM2	PORTF
-#define PIN_LPWM2	PF5     //( OC2B )               digital pin a5
-#define DDR_LPWM2	DDRF
+#define PORT_LPWM2	PORTE
+#define PIN_LPWM2	PE3     //( OC2B )              digital pin 5
+#define DDR_LPWM2	DDRE
 
 void init_h_bridge(void);
 void h_bridge_set_percentage(signed char percentage);
-void h_bridge_set_percentage1(signed char percentage);
+//void h_bridge_set_percentage1(signed char percentage);
 void h_bridge_set_percentage2(signed char percentage);
 
 #endif /* _H_BRIDGE_H_ */

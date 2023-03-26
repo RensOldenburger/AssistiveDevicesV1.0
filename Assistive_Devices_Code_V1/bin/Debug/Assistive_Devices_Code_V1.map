@@ -1,68 +1,91 @@
-Archive member included because of file (symbol)
+Archive member included to satisfy reference by file (symbol)
 
-c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_mulsi3.o)
-                              obj\Debug\h_bridge.o (__mulsi3)
-c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_divmodhi4.o)
+c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_divmodhi4.o)
                               obj\Debug\h_bridge.o (__divmodhi4)
-c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_divmodsi4.o)
+c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_divmodsi4.o)
                               obj\Debug\h_bridge.o (__divmodsi4)
-c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_exit.o)
-                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o (exit)
-c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fixunssfsi.o)
-                              obj\Debug\servo.o (__fixunssfsi)
-c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_addsub_sf.o)
-                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fixunssfsi.o) (__subsf3)
-c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_mul_sf.o)
-                              obj\Debug\servo.o (__mulsf3)
-c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_ge_sf.o)
-                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fixunssfsi.o) (__gesf2)
-c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_si_to_sf.o)
+c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_negsi2.o)
+                              c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_divmodsi4.o) (__negsi2)
+c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_exit.o)
+                              c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o (exit)
+c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_tablejump2.o)
+                              obj\Debug\main.o (__tablejump2__)
+c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_clear_bss.o)
+                              obj\Debug\main.o (__do_clear_bss)
+c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_muluhisi3.o)
+                              obj\Debug\h_bridge.o (__muluhisi3)
+c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_udivmodhi4.o)
+                              c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_divmodhi4.o) (__udivmodhi4)
+c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_udivmodsi4.o)
+                              c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_divmodsi4.o) (__udivmodsi4)
+c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_umulhisi3.o)
+                              c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_muluhisi3.o) (__umulhisi3)
+c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(addsf3.o)
+                              obj\Debug\servo.o (__addsf3)
+c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(addsf3x.o)
+                              c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(addsf3.o) (__addsf3x)
+c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(cmpsf2.o)
+                              obj\Debug\main.o (__ltsf2)
+c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fixunssfsi.o)
+                              obj\Debug\main.o (__fixunssfsi)
+c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(floatsisf.o)
                               obj\Debug\servo.o (__floatsisf)
-c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_sf_to_si.o)
-                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fixunssfsi.o) (__fixsfsi)
-c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_thenan_sf.o)
-                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_addsub_sf.o) (__thenan_sf)
-c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_udivmodhi4.o)
-                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_divmodhi4.o) (__udivmodhi4)
-c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_udivmodsi4.o)
-                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_divmodsi4.o) (__udivmodsi4)
-c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_prologue.o)
-                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_addsub_sf.o) (__prologue_saves__)
-c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_epilogue.o)
-                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_addsub_sf.o) (__epilogue_restores__)
-c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clzsi2.o)
-                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_si_to_sf.o) (__clzsi2)
-c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_pack_sf.o)
-                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_addsub_sf.o) (__pack_f)
-c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_unpack_sf.o)
-                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_addsub_sf.o) (__unpack_f)
-c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fpcmp_parts_sf.o)
-                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_ge_sf.o) (__fpcmp_parts_f)
-c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clz.o)
-                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clzsi2.o) (__clz_tab)
+c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_cmp.o)
+                              c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(cmpsf2.o) (__fp_cmp)
+c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_inf.o)
+                              c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(addsf3x.o) (__fp_inf)
+c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_nan.o)
+                              c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(addsf3x.o) (__fp_nan)
+c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_pscA.o)
+                              c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(addsf3x.o) (__fp_pscA)
+c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_pscB.o)
+                              c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(addsf3x.o) (__fp_pscB)
+c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_round.o)
+                              c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(addsf3.o) (__fp_round)
+c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_split3.o)
+                              c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(addsf3x.o) (__fp_split3)
+c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_zero.o)
+                              c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(addsf3x.o) (__fp_zero)
+c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(gesf2.o)
+                              obj\Debug\main.o (__gtsf2)
+c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(mulsf3.o)
+                              obj\Debug\main.o (__mulsf3)
+c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(mulsf3x.o)
+                              c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(mulsf3.o) (__mulsf3x)
 
 Memory Configuration
 
 Name             Origin             Length             Attributes
-text             0x00000000         0x00100000         xr
-data             0x00800200         0x0000fe00         rw !x
-eeprom           0x00810000         0x00010000         rw !x
-fuse             0x00820000         0x00000400         rw !x
-lock             0x00830000         0x00000400         rw !x
-signature        0x00840000         0x00000400         rw !x
-*default*        0x00000000         0xffffffff
+text             0x0000000000000000 0x0000000000100000 xr
+data             0x0000000000800200 0x000000000000fe00 rw !x
+eeprom           0x0000000000810000 0x0000000000010000 rw !x
+fuse             0x0000000000820000 0x0000000000000003 rw !x
+lock             0x0000000000830000 0x0000000000000400 rw !x
+signature        0x0000000000840000 0x0000000000000400 rw !x
+user_signatures  0x0000000000850000 0x0000000000000400 rw !x
+*default*        0x0000000000000000 0xffffffffffffffff
 
 Linker script and memory map
 
 Address of section .data set to 0x800200
-LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+LOAD c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
 LOAD obj\Debug\fuse.o
 LOAD obj\Debug\h_bridge.o
 LOAD obj\Debug\main.o
 LOAD obj\Debug\servo.o
-LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a
-LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a
-LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a
+START GROUP
+LOAD c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a
+LOAD c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a
+LOAD c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libc.a
+LOAD c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libatmega2560.a
+END GROUP
+                0x0000000000100000                __TEXT_REGION_LENGTH__ = DEFINED (__TEXT_REGION_LENGTH__)?__TEXT_REGION_LENGTH__:0x100000
+                0x000000000000fe00                __DATA_REGION_LENGTH__ = DEFINED (__DATA_REGION_LENGTH__)?__DATA_REGION_LENGTH__:0xfe00
+                0x0000000000010000                __EEPROM_REGION_LENGTH__ = DEFINED (__EEPROM_REGION_LENGTH__)?__EEPROM_REGION_LENGTH__:0x10000
+                [0x0000000000000003]                __FUSE_REGION_LENGTH__ = DEFINED (__FUSE_REGION_LENGTH__)?__FUSE_REGION_LENGTH__:0x400
+                0x0000000000000400                __LOCK_REGION_LENGTH__ = DEFINED (__LOCK_REGION_LENGTH__)?__LOCK_REGION_LENGTH__:0x400
+                0x0000000000000400                __SIGNATURE_REGION_LENGTH__ = DEFINED (__SIGNATURE_REGION_LENGTH__)?__SIGNATURE_REGION_LENGTH__:0x400
+                0x0000000000000400                __USER_SIGNATURE_REGION_LENGTH__ = DEFINED (__USER_SIGNATURE_REGION_LENGTH__)?__USER_SIGNATURE_REGION_LENGTH__:0x400
 
 .hash
  *(.hash)
@@ -154,46 +177,47 @@ LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a
 .rela.plt
  *(.rela.plt)
 
-.text           0x00000000     0x19c4
+.text           0x0000000000000000     0x33d2
  *(.vectors)
- .vectors       0x00000000       0xe4 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
-                0x00000000                __vectors
-                0x00000000                __vector_default
+ .vectors       0x0000000000000000       0xe4 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+                0x0000000000000000                __vector_default
+                0x0000000000000000                __vectors
  *(.vectors)
  *(.progmem.gcc*)
- *(.progmem*)
-                0x000000e4                . = ALIGN (0x2)
-                0x000000e4                __trampolines_start = .
+                0x00000000000000e4                . = ALIGN (0x2)
+                0x00000000000000e4                __trampolines_start = .
  *(.trampolines)
- .trampolines   0x000000e4        0x0 linker stubs
+ .trampolines   0x00000000000000e4       0x3c linker stubs
  *(.trampolines*)
-                0x000000e4                __trampolines_end = .
- *(.jumptables)
- *(.jumptables*)
+                0x0000000000000120                __trampolines_end = .
+ *libprintf_flt.a:*(.progmem.data)
+ *libc.a:*(.progmem.data)
+ *(.progmem.*)
+                0x0000000000000120                . = ALIGN (0x2)
  *(.lowtext)
  *(.lowtext*)
-                0x000000e4                __ctors_start = .
+                0x0000000000000120                __ctors_start = .
  *(.ctors)
-                0x000000e4                __ctors_end = .
-                0x000000e4                __dtors_start = .
+                0x0000000000000120                __ctors_end = .
+                0x0000000000000120                __dtors_start = .
  *(.dtors)
-                0x000000e4                __dtors_end = .
- SORT(*)(.ctors)
- SORT(*)(.dtors)
+                0x0000000000000120                __dtors_end = .
+ SORT_BY_NAME(*)(.ctors)
+ SORT_BY_NAME(*)(.dtors)
  *(.init0)
- .init0         0x000000e4        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
-                0x000000e4                __init
+ .init0         0x0000000000000120        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+                0x0000000000000120                __init
  *(.init0)
  *(.init1)
  *(.init1)
  *(.init2)
- .init2         0x000000e4       0x10 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+ .init2         0x0000000000000120       0x10 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
  *(.init2)
  *(.init3)
  *(.init3)
  *(.init4)
- .init4         0x000000f4       0x1a c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
-                0x000000f4                __do_copy_data
+ .init4         0x0000000000000130       0x10 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_clear_bss.o)
+                0x0000000000000130                __do_clear_bss
  *(.init4)
  *(.init5)
  *(.init5)
@@ -204,134 +228,311 @@ LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a
  *(.init8)
  *(.init8)
  *(.init9)
- .init9         0x0000010e        0x8 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+ .init9         0x0000000000000140        0x8 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
  *(.init9)
  *(.text)
- .text          0x00000116        0x4 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
-                0x00000116                __vector_38
-                0x00000116                __vector_28
-                0x00000116                __vector_1
-                0x00000116                __vector_34
-                0x00000116                __vector_24
-                0x00000116                __vector_12
-                0x00000116                __vector_55
-                0x00000116                __vector_46
-                0x00000116                __bad_interrupt
-                0x00000116                __vector_6
-                0x00000116                __vector_31
-                0x00000116                __vector_39
-                0x00000116                __vector_3
-                0x00000116                __vector_30
-                0x00000116                __vector_45
-                0x00000116                __vector_25
-                0x00000116                __vector_11
-                0x00000116                __vector_54
-                0x00000116                __vector_13
-                0x00000116                __vector_19
-                0x00000116                __vector_56
-                0x00000116                __vector_7
-                0x00000116                __vector_49
-                0x00000116                __vector_41
-                0x00000116                __vector_43
-                0x00000116                __vector_27
-                0x00000116                __vector_5
-                0x00000116                __vector_47
-                0x00000116                __vector_52
-                0x00000116                __vector_37
-                0x00000116                __vector_4
-                0x00000116                __vector_44
-                0x00000116                __vector_51
-                0x00000116                __vector_9
-                0x00000116                __vector_2
-                0x00000116                __vector_15
-                0x00000116                __vector_36
-                0x00000116                __vector_29
-                0x00000116                __vector_40
-                0x00000116                __vector_8
-                0x00000116                __vector_26
-                0x00000116                __vector_48
-                0x00000116                __vector_14
-                0x00000116                __vector_53
-                0x00000116                __vector_10
-                0x00000116                __vector_50
-                0x00000116                __vector_16
-                0x00000116                __vector_42
- .text          0x0000011a        0x0 obj\Debug\fuse.o
- .text          0x0000011a      0x5f8 obj\Debug\h_bridge.o
-                0x00000364                __vector_22
-                0x000002fe                __vector_32
-                0x00000652                h_bridge_set_percentage2
-                0x000001da                __vector_35
-                0x0000011a                __vector_23
-                0x000003bc                __vector_33
-                0x000004ea                h_bridge_set_percentage
-                0x000002a6                __vector_21
-                0x00000592                h_bridge_set_percentage1
-                0x00000422                init_h_bridge
- .text          0x00000712      0x38e obj\Debug\main.o
-                0x00000712                init
-                0x00000728                main
- .text          0x00000aa0      0x25e obj\Debug\servo.o
-                0x00000c80                servo2_set_percentage
-                0x00000b0c                __vector_17
-                0x00000c02                servo1_set_percentage
-                0x00000b5a                __vector_18
-                0x00000aa0                __vector_20
-                0x00000ba8                init_servo
- .text          0x00000cfe        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_mulsi3.o)
- .text          0x00000cfe        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_divmodhi4.o)
- .text          0x00000cfe        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_divmodsi4.o)
- .text          0x00000cfe        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_exit.o)
- .text          0x00000cfe       0x58 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fixunssfsi.o)
-                0x00000cfe                __fixunssfsi
- .text          0x00000d56      0x354 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_addsub_sf.o)
-                0x00000fee                __subsf3
-                0x00001050                __addsf3
- .text          0x000010aa      0x1f4 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_mul_sf.o)
-                0x000010aa                __mulsf3
- .text          0x0000129e       0x60 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_ge_sf.o)
-                0x0000129e                __gesf2
- .text          0x000012fe       0xbc c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_si_to_sf.o)
-                0x000012fe                __floatsisf
- .text          0x000013ba       0xa8 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_sf_to_si.o)
-                0x000013ba                __fixsfsi
- .text          0x00001462        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_thenan_sf.o)
- .text          0x00001462        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_udivmodhi4.o)
- .text          0x00001462        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_udivmodsi4.o)
- .text          0x00001462        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_prologue.o)
- .text          0x00001462        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_epilogue.o)
- .text          0x00001462       0x9e c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clzsi2.o)
-                0x00001462                __clzsi2
- .text          0x00001500      0x1aa c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_pack_sf.o)
-                0x00001500                __pack_f
- .text          0x000016aa       0xf0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_unpack_sf.o)
-                0x000016aa                __unpack_f
- .text          0x0000179a       0xb2 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fpcmp_parts_sf.o)
-                0x0000179a                __fpcmp_parts_f
- .text          0x0000184c        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clz.o)
-                0x0000184c                . = ALIGN (0x2)
+ .text          0x0000000000000148        0x4 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+                0x0000000000000148                __vector_38
+                0x0000000000000148                __vector_28
+                0x0000000000000148                __vector_1
+                0x0000000000000148                __vector_34
+                0x0000000000000148                __vector_24
+                0x0000000000000148                __vector_12
+                0x0000000000000148                __vector_55
+                0x0000000000000148                __vector_46
+                0x0000000000000148                __bad_interrupt
+                0x0000000000000148                __vector_6
+                0x0000000000000148                __vector_31
+                0x0000000000000148                __vector_39
+                0x0000000000000148                __vector_3
+                0x0000000000000148                __vector_30
+                0x0000000000000148                __vector_45
+                0x0000000000000148                __vector_25
+                0x0000000000000148                __vector_11
+                0x0000000000000148                __vector_54
+                0x0000000000000148                __vector_13
+                0x0000000000000148                __vector_19
+                0x0000000000000148                __vector_56
+                0x0000000000000148                __vector_7
+                0x0000000000000148                __vector_49
+                0x0000000000000148                __vector_41
+                0x0000000000000148                __vector_43
+                0x0000000000000148                __vector_27
+                0x0000000000000148                __vector_5
+                0x0000000000000148                __vector_52
+                0x0000000000000148                __vector_37
+                0x0000000000000148                __vector_4
+                0x0000000000000148                __vector_44
+                0x0000000000000148                __vector_51
+                0x0000000000000148                __vector_9
+                0x0000000000000148                __vector_2
+                0x0000000000000148                __vector_15
+                0x0000000000000148                __vector_36
+                0x0000000000000148                __vector_29
+                0x0000000000000148                __vector_40
+                0x0000000000000148                __vector_8
+                0x0000000000000148                __vector_26
+                0x0000000000000148                __vector_14
+                0x0000000000000148                __vector_53
+                0x0000000000000148                __vector_10
+                0x0000000000000148                __vector_16
+                0x0000000000000148                __vector_42
+ .text          0x000000000000014c        0x0 obj\Debug\fuse.o
+ .text          0x000000000000014c      0x5c4 obj\Debug\h_bridge.o
+                0x000000000000014c                __vector_23
+                0x000000000000022a                __vector_35
+                0x0000000000000310                __vector_21
+                0x000000000000036c                __vector_32
+                0x00000000000003cc                __vector_22
+                0x0000000000000428                __vector_33
+                0x0000000000000488                init_h_bridge
+                0x0000000000000586                h_bridge_set_percentage
+                0x000000000000061a                h_bridge_set_percentage2
+ .text          0x0000000000000710     0x25a2 obj\Debug\main.o
+                0x0000000000000710                buzzer
+                0x0000000000000768                knipperLichten
+                0x0000000000000806                init
+                0x0000000000000824                main
+                0x0000000000002b56                __vector_47
+                0x0000000000002bca                __vector_48
+                0x0000000000002c2c                __vector_50
+ .text          0x0000000000002cb2      0x25e obj\Debug\servo.o
+                0x0000000000002cb2                __vector_20
+                0x0000000000002d1e                __vector_17
+                0x0000000000002d6c                __vector_18
+                0x0000000000002dba                init_servo
+                0x0000000000002e14                servo1_set_percentage
+                0x0000000000002e92                servo2_set_percentage
+ .text          0x0000000000002f10        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_divmodhi4.o)
+ .text          0x0000000000002f10        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_divmodsi4.o)
+ .text          0x0000000000002f10        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_negsi2.o)
+ .text          0x0000000000002f10        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_exit.o)
+ .text          0x0000000000002f10        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_tablejump2.o)
+ .text          0x0000000000002f10        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_clear_bss.o)
+ .text          0x0000000000002f10        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_muluhisi3.o)
+ .text          0x0000000000002f10        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_udivmodhi4.o)
+ .text          0x0000000000002f10        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_udivmodsi4.o)
+ .text          0x0000000000002f10        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_umulhisi3.o)
+ .text          0x0000000000002f10        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(addsf3.o)
+ .text          0x0000000000002f10        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(addsf3x.o)
+ .text          0x0000000000002f10        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(cmpsf2.o)
+ .text          0x0000000000002f10        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fixunssfsi.o)
+ .text          0x0000000000002f10        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(floatsisf.o)
+ .text          0x0000000000002f10        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_cmp.o)
+ .text          0x0000000000002f10        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_inf.o)
+ .text          0x0000000000002f10        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_nan.o)
+ .text          0x0000000000002f10        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_pscA.o)
+ .text          0x0000000000002f10        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_pscB.o)
+ .text          0x0000000000002f10        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_round.o)
+ .text          0x0000000000002f10        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_split3.o)
+ .text          0x0000000000002f10        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_zero.o)
+ .text          0x0000000000002f10        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(gesf2.o)
+ .text          0x0000000000002f10        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(mulsf3.o)
+ .text          0x0000000000002f10        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(mulsf3x.o)
+                0x0000000000002f10                . = ALIGN (0x2)
  *(.text.*)
- .text.libgcc   0x0000184c       0x3e c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_mulsi3.o)
-                0x0000184c                __mulsi3
- .text.libgcc   0x0000188a       0x26 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_divmodhi4.o)
-                0x0000188a                __divmodhi4
-                0x0000188a                _div
- .text.libgcc   0x000018b0       0x36 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_divmodsi4.o)
-                0x000018b0                __divmodsi4
- .text.libgcc   0x000018e6        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_exit.o)
- .text.libgcc   0x000018e6       0x28 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_udivmodhi4.o)
-                0x000018e6                __udivmodhi4
- .text.libgcc   0x0000190e       0x44 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_udivmodsi4.o)
-                0x0000190e                __udivmodsi4
- .text.libgcc   0x00001952       0x38 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_prologue.o)
-                0x00001952                __prologue_saves__
- .text.libgcc   0x0000198a       0x36 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_epilogue.o)
-                0x0000198a                __epilogue_restores__
-                0x000019c0                . = ALIGN (0x2)
+ .text.libgcc.mul
+                0x0000000000002f10        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_divmodhi4.o)
+ .text.libgcc.div
+                0x0000000000002f10       0x28 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_divmodhi4.o)
+                0x0000000000002f10                _div
+                0x0000000000002f10                __divmodhi4
+ .text.libgcc   0x0000000000002f38        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_divmodhi4.o)
+ .text.libgcc.prologue
+                0x0000000000002f38        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_divmodhi4.o)
+ .text.libgcc.builtins
+                0x0000000000002f38        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_divmodhi4.o)
+ .text.libgcc.fmul
+                0x0000000000002f38        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_divmodhi4.o)
+ .text.libgcc.fixed
+                0x0000000000002f38        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_divmodhi4.o)
+ .text.libgcc.mul
+                0x0000000000002f38        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_divmodsi4.o)
+ .text.libgcc.div
+                0x0000000000002f38       0x2e c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_divmodsi4.o)
+                0x0000000000002f38                __divmodsi4
+ .text.libgcc   0x0000000000002f66        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_divmodsi4.o)
+ .text.libgcc.prologue
+                0x0000000000002f66        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_divmodsi4.o)
+ .text.libgcc.builtins
+                0x0000000000002f66        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_divmodsi4.o)
+ .text.libgcc.fmul
+                0x0000000000002f66        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_divmodsi4.o)
+ .text.libgcc.fixed
+                0x0000000000002f66        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_divmodsi4.o)
+ .text.libgcc.mul
+                0x0000000000002f66        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_negsi2.o)
+ .text.libgcc.div
+                0x0000000000002f66       0x10 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_negsi2.o)
+                0x0000000000002f66                __negsi2
+ .text.libgcc   0x0000000000002f76        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_negsi2.o)
+ .text.libgcc.prologue
+                0x0000000000002f76        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_negsi2.o)
+ .text.libgcc.builtins
+                0x0000000000002f76        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_negsi2.o)
+ .text.libgcc.fmul
+                0x0000000000002f76        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_negsi2.o)
+ .text.libgcc.fixed
+                0x0000000000002f76        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_negsi2.o)
+ .text.libgcc.mul
+                0x0000000000002f76        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x0000000000002f76        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_exit.o)
+ .text.libgcc   0x0000000000002f76        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x0000000000002f76        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x0000000000002f76        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x0000000000002f76        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_exit.o)
+ .text.libgcc.fixed
+                0x0000000000002f76        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x0000000000002f76        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_tablejump2.o)
+ .text.libgcc.div
+                0x0000000000002f76        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_tablejump2.o)
+ .text.libgcc   0x0000000000002f76       0x10 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_tablejump2.o)
+                0x0000000000002f76                __tablejump2__
+ .text.libgcc.prologue
+                0x0000000000002f86        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_tablejump2.o)
+ .text.libgcc.builtins
+                0x0000000000002f86        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_tablejump2.o)
+ .text.libgcc.fmul
+                0x0000000000002f86        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_tablejump2.o)
+ .text.libgcc.fixed
+                0x0000000000002f86        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_tablejump2.o)
+ .text.libgcc.mul
+                0x0000000000002f86        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_clear_bss.o)
+ .text.libgcc.div
+                0x0000000000002f86        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x0000000000002f86        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_clear_bss.o)
+ .text.libgcc.prologue
+                0x0000000000002f86        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_clear_bss.o)
+ .text.libgcc.builtins
+                0x0000000000002f86        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_clear_bss.o)
+ .text.libgcc.fmul
+                0x0000000000002f86        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_clear_bss.o)
+ .text.libgcc.fixed
+                0x0000000000002f86        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_clear_bss.o)
+ .text.libgcc.mul
+                0x0000000000002f86       0x16 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_muluhisi3.o)
+                0x0000000000002f86                __muluhisi3
+ .text.libgcc.div
+                0x0000000000002f9c        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_muluhisi3.o)
+ .text.libgcc   0x0000000000002f9c        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_muluhisi3.o)
+ .text.libgcc.prologue
+                0x0000000000002f9c        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_muluhisi3.o)
+ .text.libgcc.builtins
+                0x0000000000002f9c        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_muluhisi3.o)
+ .text.libgcc.fmul
+                0x0000000000002f9c        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_muluhisi3.o)
+ .text.libgcc.fixed
+                0x0000000000002f9c        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_muluhisi3.o)
+ .text.libgcc.mul
+                0x0000000000002f9c        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_udivmodhi4.o)
+ .text.libgcc.div
+                0x0000000000002f9c       0x28 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_udivmodhi4.o)
+                0x0000000000002f9c                __udivmodhi4
+ .text.libgcc   0x0000000000002fc4        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_udivmodhi4.o)
+ .text.libgcc.prologue
+                0x0000000000002fc4        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_udivmodhi4.o)
+ .text.libgcc.builtins
+                0x0000000000002fc4        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_udivmodhi4.o)
+ .text.libgcc.fmul
+                0x0000000000002fc4        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_udivmodhi4.o)
+ .text.libgcc.fixed
+                0x0000000000002fc4        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_udivmodhi4.o)
+ .text.libgcc.mul
+                0x0000000000002fc4        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.div
+                0x0000000000002fc4       0x44 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_udivmodsi4.o)
+                0x0000000000002fc4                __udivmodsi4
+ .text.libgcc   0x0000000000003008        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.prologue
+                0x0000000000003008        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.builtins
+                0x0000000000003008        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fmul
+                0x0000000000003008        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fixed
+                0x0000000000003008        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.mul
+                0x0000000000003008       0x1e c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_umulhisi3.o)
+                0x0000000000003008                __umulhisi3
+ .text.libgcc.div
+                0x0000000000003026        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_umulhisi3.o)
+ .text.libgcc   0x0000000000003026        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_umulhisi3.o)
+ .text.libgcc.prologue
+                0x0000000000003026        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_umulhisi3.o)
+ .text.libgcc.builtins
+                0x0000000000003026        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_umulhisi3.o)
+ .text.libgcc.fmul
+                0x0000000000003026        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_umulhisi3.o)
+ .text.libgcc.fixed
+                0x0000000000003026        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_umulhisi3.o)
+ .text.avr-libc.fplib
+                0x0000000000003026        0xe c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(addsf3.o)
+                0x0000000000003026                __subsf3
+                0x0000000000003028                __addsf3
+ .text.avr-libc.fplib
+                0x0000000000003034       0xcc c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(addsf3x.o)
+                0x0000000000003056                __addsf3x
+ .text.avr-libc.fplib
+                0x0000000000003100        0xa c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(cmpsf2.o)
+                0x0000000000003100                __nesf2
+                0x0000000000003100                __eqsf2
+                0x0000000000003100                __cmpsf2
+                0x0000000000003100                __ltsf2
+                0x0000000000003100                __lesf2
+ .text.avr-libc.fplib
+                0x000000000000310a       0x5e c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fixunssfsi.o)
+                0x000000000000310a                __fixunssfsi
+ .text.avr-libc.fplib
+                0x0000000000003168       0x7a c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(floatsisf.o)
+                0x0000000000003168                __floatunsisf
+                0x000000000000316c                __floatsisf
+ .text.avr-libc.fplib
+                0x00000000000031e2       0x48 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_cmp.o)
+                0x00000000000031e2                __fp_cmp
+ .text.avr-libc.fplib
+                0x000000000000322a        0xc c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_inf.o)
+                0x000000000000322a                __fp_inf
+ .text.avr-libc.fplib
+                0x0000000000003236        0x6 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_nan.o)
+                0x0000000000003236                __fp_nan
+ .text.avr-libc.fplib
+                0x000000000000323c        0xe c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_pscA.o)
+                0x000000000000323c                __fp_pscA
+ .text.avr-libc.fplib
+                0x000000000000324a        0xe c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_pscB.o)
+                0x000000000000324a                __fp_pscB
+ .text.avr-libc.fplib
+                0x0000000000003258       0x22 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_round.o)
+                0x0000000000003258                __fp_round
+ .text.avr-libc.fplib
+                0x000000000000327a       0x44 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_split3.o)
+                0x000000000000327a                __fp_split3
+                0x000000000000328a                __fp_splitA
+ .text.avr-libc.fplib
+                0x00000000000032be        0xe c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_zero.o)
+                0x00000000000032be                __fp_zero
+                0x00000000000032c0                __fp_szero
+ .text.avr-libc.fplib
+                0x00000000000032cc        0xa c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(gesf2.o)
+                0x00000000000032cc                __gesf2
+                0x00000000000032cc                __gtsf2
+ .text.avr-libc.fplib
+                0x00000000000032d6        0x8 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(mulsf3.o)
+                0x00000000000032d6                __mulsf3
+ .text.avr-libc.fplib
+                0x00000000000032de       0xd2 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(mulsf3x.o)
+                0x00000000000032fc                __mulsf3x
+                0x0000000000003302                __mulsf3_pse
+                0x00000000000033b0                . = ALIGN (0x2)
  *(.fini9)
- .fini9         0x000019c0        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_exit.o)
-                0x000019c0                exit
-                0x000019c0                _exit
+ .fini9         0x00000000000033b0        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_exit.o)
+                0x00000000000033b0                _exit
+                0x00000000000033b0                exit
  *(.fini9)
  *(.fini8)
  *(.fini8)
@@ -350,97 +551,118 @@ LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a
  *(.fini1)
  *(.fini1)
  *(.fini0)
- .fini0         0x000019c0        0x4 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_exit.o)
+ .fini0         0x00000000000033b0        0x4 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_exit.o)
  *(.fini0)
-                0x000019c4                _etext = .
+ *(.hightext)
+ *(.hightext*)
+ *(.progmemx.*)
+                0x00000000000033b4                . = ALIGN (0x2)
+ *(.jumptables)
+ *(.jumptables*)
+ .jumptables.gcc.main
+                0x00000000000033b4       0x1e obj\Debug\main.o
+                0x00000000000033d2                _etext = .
 
-.data           0x00800200      0x108 load address 0x000019c4
-                0x00800200                PROVIDE (__data_start, .)
+.data           0x0000000000800200        0x0 load address 0x00000000000033d2
+                [!provide]                        PROVIDE (__data_start = .)
  *(.data)
- .data          0x00800200        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
- .data          0x00800200        0x0 obj\Debug\fuse.o
- .data          0x00800200        0x0 obj\Debug\h_bridge.o
- .data          0x00800200        0x0 obj\Debug\main.o
- .data          0x00800200        0x0 obj\Debug\servo.o
- .data          0x00800200        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_mulsi3.o)
- .data          0x00800200        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_divmodhi4.o)
- .data          0x00800200        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_divmodsi4.o)
- .data          0x00800200        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_exit.o)
- .data          0x00800200        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fixunssfsi.o)
- .data          0x00800200        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_addsub_sf.o)
- .data          0x00800200        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_mul_sf.o)
- .data          0x00800200        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_ge_sf.o)
- .data          0x00800200        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_si_to_sf.o)
- .data          0x00800200        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_sf_to_si.o)
- .data          0x00800200        0x8 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_thenan_sf.o)
-                0x00800200                __thenan_sf
- .data          0x00800208        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_udivmodhi4.o)
- .data          0x00800208        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_udivmodsi4.o)
- .data          0x00800208        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_prologue.o)
- .data          0x00800208        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_epilogue.o)
- .data          0x00800208        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clzsi2.o)
- .data          0x00800208        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_pack_sf.o)
- .data          0x00800208        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_unpack_sf.o)
- .data          0x00800208        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fpcmp_parts_sf.o)
- .data          0x00800208      0x100 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clz.o)
-                0x00800208                __clz_tab
+ .data          0x0000000000800200        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+ .data          0x0000000000800200        0x0 obj\Debug\fuse.o
+ .data          0x0000000000800200        0x0 obj\Debug\h_bridge.o
+ .data          0x0000000000800200        0x0 obj\Debug\main.o
+ .data          0x0000000000800200        0x0 obj\Debug\servo.o
+ .data          0x0000000000800200        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_divmodhi4.o)
+ .data          0x0000000000800200        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_divmodsi4.o)
+ .data          0x0000000000800200        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_negsi2.o)
+ .data          0x0000000000800200        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_exit.o)
+ .data          0x0000000000800200        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_tablejump2.o)
+ .data          0x0000000000800200        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_clear_bss.o)
+ .data          0x0000000000800200        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_muluhisi3.o)
+ .data          0x0000000000800200        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_udivmodhi4.o)
+ .data          0x0000000000800200        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_udivmodsi4.o)
+ .data          0x0000000000800200        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_umulhisi3.o)
+ .data          0x0000000000800200        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(addsf3.o)
+ .data          0x0000000000800200        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(addsf3x.o)
+ .data          0x0000000000800200        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(cmpsf2.o)
+ .data          0x0000000000800200        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fixunssfsi.o)
+ .data          0x0000000000800200        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(floatsisf.o)
+ .data          0x0000000000800200        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_cmp.o)
+ .data          0x0000000000800200        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_inf.o)
+ .data          0x0000000000800200        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_nan.o)
+ .data          0x0000000000800200        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_pscA.o)
+ .data          0x0000000000800200        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_pscB.o)
+ .data          0x0000000000800200        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_round.o)
+ .data          0x0000000000800200        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_split3.o)
+ .data          0x0000000000800200        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_zero.o)
+ .data          0x0000000000800200        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(gesf2.o)
+ .data          0x0000000000800200        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(mulsf3.o)
+ .data          0x0000000000800200        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(mulsf3x.o)
  *(.data*)
+ *(.gnu.linkonce.d*)
  *(.rodata)
  *(.rodata*)
- *(.gnu.linkonce.d*)
-                0x00800308                . = ALIGN (0x2)
-                0x00800308                _edata = .
-                0x00800308                PROVIDE (__data_end, .)
+ *(.gnu.linkonce.r*)
+                0x0000000000800200                . = ALIGN (0x2)
+                0x0000000000800200                _edata = .
+                [!provide]                        PROVIDE (__data_end = .)
 
-.bss            0x00800308        0x0
-                0x00800308                PROVIDE (__bss_start, .)
+.bss            0x0000000000800200        0x4
+                0x0000000000800200                PROVIDE (__bss_start = .)
  *(.bss)
- .bss           0x00800308        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
- .bss           0x00800308        0x0 obj\Debug\fuse.o
- .bss           0x00800308        0x0 obj\Debug\h_bridge.o
- .bss           0x00800308        0x0 obj\Debug\main.o
- .bss           0x00800308        0x0 obj\Debug\servo.o
- .bss           0x00800308        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_mulsi3.o)
- .bss           0x00800308        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_divmodhi4.o)
- .bss           0x00800308        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_divmodsi4.o)
- .bss           0x00800308        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_exit.o)
- .bss           0x00800308        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fixunssfsi.o)
- .bss           0x00800308        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_addsub_sf.o)
- .bss           0x00800308        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_mul_sf.o)
- .bss           0x00800308        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_ge_sf.o)
- .bss           0x00800308        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_si_to_sf.o)
- .bss           0x00800308        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_sf_to_si.o)
- .bss           0x00800308        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_thenan_sf.o)
- .bss           0x00800308        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_udivmodhi4.o)
- .bss           0x00800308        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_udivmodsi4.o)
- .bss           0x00800308        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_prologue.o)
- .bss           0x00800308        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_epilogue.o)
- .bss           0x00800308        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clzsi2.o)
- .bss           0x00800308        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_pack_sf.o)
- .bss           0x00800308        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_unpack_sf.o)
- .bss           0x00800308        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fpcmp_parts_sf.o)
- .bss           0x00800308        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clz.o)
+ .bss           0x0000000000800200        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+ .bss           0x0000000000800200        0x0 obj\Debug\fuse.o
+ .bss           0x0000000000800200        0x0 obj\Debug\h_bridge.o
+ .bss           0x0000000000800200        0x4 obj\Debug\main.o
+                0x0000000000800200                buzz
+                0x0000000000800202                knipper
+ .bss           0x0000000000800204        0x0 obj\Debug\servo.o
+ .bss           0x0000000000800204        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_divmodhi4.o)
+ .bss           0x0000000000800204        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_divmodsi4.o)
+ .bss           0x0000000000800204        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_negsi2.o)
+ .bss           0x0000000000800204        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_exit.o)
+ .bss           0x0000000000800204        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_tablejump2.o)
+ .bss           0x0000000000800204        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_clear_bss.o)
+ .bss           0x0000000000800204        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_muluhisi3.o)
+ .bss           0x0000000000800204        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_udivmodhi4.o)
+ .bss           0x0000000000800204        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_udivmodsi4.o)
+ .bss           0x0000000000800204        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_umulhisi3.o)
+ .bss           0x0000000000800204        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(addsf3.o)
+ .bss           0x0000000000800204        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(addsf3x.o)
+ .bss           0x0000000000800204        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(cmpsf2.o)
+ .bss           0x0000000000800204        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fixunssfsi.o)
+ .bss           0x0000000000800204        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(floatsisf.o)
+ .bss           0x0000000000800204        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_cmp.o)
+ .bss           0x0000000000800204        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_inf.o)
+ .bss           0x0000000000800204        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_nan.o)
+ .bss           0x0000000000800204        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_pscA.o)
+ .bss           0x0000000000800204        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_pscB.o)
+ .bss           0x0000000000800204        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_round.o)
+ .bss           0x0000000000800204        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_split3.o)
+ .bss           0x0000000000800204        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_zero.o)
+ .bss           0x0000000000800204        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(gesf2.o)
+ .bss           0x0000000000800204        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(mulsf3.o)
+ .bss           0x0000000000800204        0x0 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(mulsf3x.o)
  *(.bss*)
  *(COMMON)
-                0x00800308                PROVIDE (__bss_end, .)
-                0x000019c4                __data_load_start = LOADADDR (.data)
-                0x00001acc                __data_load_end = (__data_load_start + SIZEOF (.data))
+                0x0000000000800204                PROVIDE (__bss_end = .)
+                0x00000000000033d2                __data_load_start = LOADADDR (.data)
+                0x00000000000033d2                __data_load_end = (__data_load_start + SIZEOF (.data))
 
-.noinit         0x00800308        0x0
-                0x00800308                PROVIDE (__noinit_start, .)
- *(.noinit*)
-                0x00800308                PROVIDE (__noinit_end, .)
-                0x00800308                _end = .
-                0x00800308                PROVIDE (__heap_start, .)
+.noinit         0x0000000000800204        0x0
+                [!provide]                        PROVIDE (__noinit_start = .)
+ *(.noinit .noinit.* .gnu.linkonce.n.*)
+                [!provide]                        PROVIDE (__noinit_end = .)
+                0x0000000000800204                _end = .
+                [!provide]                        PROVIDE (__heap_start = .)
 
-.eeprom         0x00810000        0x0
+.eeprom         0x0000000000810000        0x0
  *(.eeprom*)
-                0x00810000                __eeprom_end = .
+                0x0000000000810000                __eeprom_end = .
 
-.fuse           0x00820000        0x3
+.fuse           0x0000000000820000        0x3
  *(.fuse)
- .fuse          0x00820000        0x3 obj\Debug\fuse.o
-                0x00820000                __fuse
+ .fuse          0x0000000000820000        0x3 obj\Debug\fuse.o
+                0x0000000000820000                __fuse
  *(.lfuse)
  *(.hfuse)
  *(.efuse)
@@ -469,8 +691,19 @@ LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a
 .stab.indexstr
  *(.stab.indexstr)
 
-.comment
+.comment        0x0000000000000000       0x12
  *(.comment)
+ .comment       0x0000000000000000       0x12 obj\Debug\h_bridge.o
+                                         0x13 (size before relaxing)
+ .comment       0x0000000000000012       0x13 obj\Debug\main.o
+
+.note.gnu.avr.deviceinfo
+                0x0000000000000000       0x40
+ .note.gnu.avr.deviceinfo
+                0x0000000000000000       0x40 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
 
 .debug
  *(.debug)
@@ -484,349 +717,375 @@ LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a
 .debug_sfnames
  *(.debug_sfnames)
 
-.debug_aranges  0x00000000      0x1a0
+.debug_aranges  0x0000000000000000      0x1a0
  *(.debug_aranges)
  .debug_aranges
-                0x00000000       0x20 obj\Debug\h_bridge.o
+                0x0000000000000000       0x20 obj\Debug\h_bridge.o
  .debug_aranges
-                0x00000020       0x20 obj\Debug\main.o
+                0x0000000000000020       0x20 obj\Debug\main.o
  .debug_aranges
-                0x00000040       0x20 obj\Debug\servo.o
+                0x0000000000000040       0x20 obj\Debug\servo.o
  .debug_aranges
-                0x00000060       0x20 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fixunssfsi.o)
+                0x0000000000000060       0x20 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_divmodhi4.o)
  .debug_aranges
-                0x00000080       0x20 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_addsub_sf.o)
+                0x0000000000000080       0x20 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_divmodsi4.o)
  .debug_aranges
-                0x000000a0       0x20 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_mul_sf.o)
+                0x00000000000000a0       0x20 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_negsi2.o)
  .debug_aranges
-                0x000000c0       0x20 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_ge_sf.o)
+                0x00000000000000c0       0x20 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_exit.o)
  .debug_aranges
-                0x000000e0       0x20 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_si_to_sf.o)
+                0x00000000000000e0       0x20 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_tablejump2.o)
  .debug_aranges
-                0x00000100       0x20 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_sf_to_si.o)
+                0x0000000000000100       0x20 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_clear_bss.o)
  .debug_aranges
-                0x00000120       0x20 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clzsi2.o)
+                0x0000000000000120       0x20 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_muluhisi3.o)
  .debug_aranges
-                0x00000140       0x20 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_pack_sf.o)
+                0x0000000000000140       0x20 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_udivmodhi4.o)
  .debug_aranges
-                0x00000160       0x20 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_unpack_sf.o)
+                0x0000000000000160       0x20 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_udivmodsi4.o)
  .debug_aranges
-                0x00000180       0x20 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fpcmp_parts_sf.o)
+                0x0000000000000180       0x20 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_umulhisi3.o)
 
 .debug_pubnames
-                0x00000000      0x335
+                0x0000000000000000       0xa2
  *(.debug_pubnames)
  .debug_pubnames
-                0x00000000       0x1d obj\Debug\fuse.o
+                0x0000000000000000       0x1d obj\Debug\fuse.o
  .debug_pubnames
-                0x0000001d       0xda obj\Debug\h_bridge.o
- .debug_pubnames
-                0x000000f7       0x24 obj\Debug\main.o
- .debug_pubnames
-                0x0000011b       0x85 obj\Debug\servo.o
- .debug_pubnames
-                0x000001a0       0x23 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fixunssfsi.o)
- .debug_pubnames
-                0x000001c3       0x2c c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_addsub_sf.o)
- .debug_pubnames
-                0x000001ef       0x1f c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_mul_sf.o)
- .debug_pubnames
-                0x0000020e       0x1e c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_ge_sf.o)
- .debug_pubnames
-                0x0000022c       0x22 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_si_to_sf.o)
- .debug_pubnames
-                0x0000024e       0x20 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_sf_to_si.o)
- .debug_pubnames
-                0x0000026e       0x22 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_thenan_sf.o)
- .debug_pubnames
-                0x00000290       0x1f c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clzsi2.o)
- .debug_pubnames
-                0x000002af       0x1f c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_pack_sf.o)
- .debug_pubnames
-                0x000002ce       0x21 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_unpack_sf.o)
- .debug_pubnames
-                0x000002ef       0x26 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fpcmp_parts_sf.o)
- .debug_pubnames
-                0x00000315       0x20 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clz.o)
+                0x000000000000001d       0x85 obj\Debug\servo.o
 
-.debug_info     0x00000000     0x1eac
- *(.debug_info)
- .debug_info    0x00000000       0xae obj\Debug\fuse.o
- .debug_info    0x000000ae      0x15b obj\Debug\h_bridge.o
- .debug_info    0x00000209       0x99 obj\Debug\main.o
- .debug_info    0x000002a2       0xf8 obj\Debug\servo.o
- .debug_info    0x0000039a       0xb1 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fixunssfsi.o)
- .debug_info    0x0000044b      0x47a c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_addsub_sf.o)
- .debug_info    0x000008c5      0x485 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_mul_sf.o)
- .debug_info    0x00000d4a      0x27f c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_ge_sf.o)
- .debug_info    0x00000fc9      0x207 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_si_to_sf.o)
- .debug_info    0x000011d0      0x2b0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_sf_to_si.o)
- .debug_info    0x00001480      0x12c c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_thenan_sf.o)
- .debug_info    0x000015ac      0x117 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clzsi2.o)
- .debug_info    0x000016c3      0x2df c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_pack_sf.o)
- .debug_info    0x000019a2      0x251 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_unpack_sf.o)
- .debug_info    0x00001bf3      0x210 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fpcmp_parts_sf.o)
- .debug_info    0x00001e03       0xa9 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clz.o)
- *(.gnu.linkonce.wi.*)
+.debug_info     0x0000000000000000     0x182b
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000      0xbbc c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+ .debug_info    0x0000000000000bbc       0xae obj\Debug\fuse.o
+ .debug_info    0x0000000000000c6a      0x130 obj\Debug\h_bridge.o
+ .debug_info    0x0000000000000d9a      0x831 obj\Debug\main.o
+ .debug_info    0x00000000000015cb       0xf8 obj\Debug\servo.o
+ .debug_info    0x00000000000016c3       0x24 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_divmodhi4.o)
+ .debug_info    0x00000000000016e7       0x24 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_divmodsi4.o)
+ .debug_info    0x000000000000170b       0x24 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_negsi2.o)
+ .debug_info    0x000000000000172f       0x24 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_exit.o)
+ .debug_info    0x0000000000001753       0x24 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_tablejump2.o)
+ .debug_info    0x0000000000001777       0x24 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_clear_bss.o)
+ .debug_info    0x000000000000179b       0x24 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_muluhisi3.o)
+ .debug_info    0x00000000000017bf       0x24 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_udivmodhi4.o)
+ .debug_info    0x00000000000017e3       0x24 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_udivmodsi4.o)
+ .debug_info    0x0000000000001807       0x24 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_umulhisi3.o)
 
-.debug_abbrev   0x00000000     0x1079
+.debug_abbrev   0x0000000000000000      0xf1d
  *(.debug_abbrev)
- .debug_abbrev  0x00000000       0x73 obj\Debug\fuse.o
- .debug_abbrev  0x00000073       0x7a obj\Debug\h_bridge.o
- .debug_abbrev  0x000000ed       0x65 obj\Debug\main.o
- .debug_abbrev  0x00000152       0x7a obj\Debug\servo.o
- .debug_abbrev  0x000001cc       0x5d c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fixunssfsi.o)
- .debug_abbrev  0x00000229      0x1ea c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_addsub_sf.o)
- .debug_abbrev  0x00000413      0x21b c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_mul_sf.o)
- .debug_abbrev  0x0000062e      0x15a c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_ge_sf.o)
- .debug_abbrev  0x00000788      0x148 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_si_to_sf.o)
- .debug_abbrev  0x000008d0      0x17f c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_sf_to_si.o)
- .debug_abbrev  0x00000a4f       0xad c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_thenan_sf.o)
- .debug_abbrev  0x00000afc       0xc4 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clzsi2.o)
- .debug_abbrev  0x00000bc0      0x1c0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_pack_sf.o)
- .debug_abbrev  0x00000d80      0x154 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_unpack_sf.o)
- .debug_abbrev  0x00000ed4      0x13b c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fpcmp_parts_sf.o)
- .debug_abbrev  0x0000100f       0x6a c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clz.o)
+ .debug_abbrev  0x0000000000000000      0xb1a c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+ .debug_abbrev  0x0000000000000b1a       0x73 obj\Debug\fuse.o
+ .debug_abbrev  0x0000000000000b8d       0x84 obj\Debug\h_bridge.o
+ .debug_abbrev  0x0000000000000c11      0x1ca obj\Debug\main.o
+ .debug_abbrev  0x0000000000000ddb       0x7a obj\Debug\servo.o
+ .debug_abbrev  0x0000000000000e55       0x14 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_divmodhi4.o)
+ .debug_abbrev  0x0000000000000e69       0x14 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_divmodsi4.o)
+ .debug_abbrev  0x0000000000000e7d       0x14 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_negsi2.o)
+ .debug_abbrev  0x0000000000000e91       0x14 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_exit.o)
+ .debug_abbrev  0x0000000000000ea5       0x14 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_tablejump2.o)
+ .debug_abbrev  0x0000000000000eb9       0x14 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_clear_bss.o)
+ .debug_abbrev  0x0000000000000ecd       0x14 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_muluhisi3.o)
+ .debug_abbrev  0x0000000000000ee1       0x14 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_udivmodhi4.o)
+ .debug_abbrev  0x0000000000000ef5       0x14 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_udivmodsi4.o)
+ .debug_abbrev  0x0000000000000f09       0x14 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_umulhisi3.o)
 
-.debug_line     0x00000000     0x1565
- *(.debug_line)
- .debug_line    0x00000000       0x83 obj\Debug\fuse.o
- .debug_line    0x00000083      0x2e4 obj\Debug\h_bridge.o
- .debug_line    0x00000367      0x268 obj\Debug\main.o
- .debug_line    0x000005cf      0x139 obj\Debug\servo.o
- .debug_line    0x00000708       0xa7 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fixunssfsi.o)
- .debug_line    0x000007af      0x2af c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_addsub_sf.o)
- .debug_line    0x00000a5e      0x239 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_mul_sf.o)
- .debug_line    0x00000c97       0xd3 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_ge_sf.o)
- .debug_line    0x00000d6a      0x135 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_si_to_sf.o)
- .debug_line    0x00000e9f      0x109 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_sf_to_si.o)
- .debug_line    0x00000fa8       0x90 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_thenan_sf.o)
- .debug_line    0x00001038       0xa5 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clzsi2.o)
- .debug_line    0x000010dd      0x18a c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_pack_sf.o)
- .debug_line    0x00001267      0x14b c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_unpack_sf.o)
- .debug_line    0x000013b2      0x137 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fpcmp_parts_sf.o)
- .debug_line    0x000014e9       0x7c c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clz.o)
+.debug_line     0x0000000000000000     0x1d2d
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x0000000000000000       0x1d c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+ .debug_line    0x000000000000001d       0x83 obj\Debug\fuse.o
+ .debug_line    0x00000000000000a0      0x55f obj\Debug\h_bridge.o
+ .debug_line    0x00000000000005ff     0x1007 obj\Debug\main.o
+ .debug_line    0x0000000000001606      0x139 obj\Debug\servo.o
+ .debug_line    0x000000000000173f       0xb7 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_divmodhi4.o)
+ .debug_line    0x00000000000017f6       0xbd c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_divmodsi4.o)
+ .debug_line    0x00000000000018b3       0x51 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_negsi2.o)
+ .debug_line    0x0000000000001904       0x51 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_exit.o)
+ .debug_line    0x0000000000001955       0x75 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_tablejump2.o)
+ .debug_line    0x00000000000019ca       0x75 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_clear_bss.o)
+ .debug_line    0x0000000000001a3f       0x81 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_muluhisi3.o)
+ .debug_line    0x0000000000001ac0       0xbd c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_udivmodhi4.o)
+ .debug_line    0x0000000000001b7d      0x111 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_udivmodsi4.o)
+ .debug_line    0x0000000000001c8e       0x9f c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_umulhisi3.o)
 
-.debug_frame    0x00000000      0x2b0
+.debug_frame    0x0000000000000000      0x3f8
  *(.debug_frame)
- .debug_frame   0x00000000       0xb0 obj\Debug\h_bridge.o
- .debug_frame   0x000000b0       0x30 obj\Debug\main.o
- .debug_frame   0x000000e0       0x70 obj\Debug\servo.o
- .debug_frame   0x00000150       0x20 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fixunssfsi.o)
- .debug_frame   0x00000170       0x40 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_addsub_sf.o)
- .debug_frame   0x000001b0       0x20 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_mul_sf.o)
- .debug_frame   0x000001d0       0x20 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_ge_sf.o)
- .debug_frame   0x000001f0       0x20 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_si_to_sf.o)
- .debug_frame   0x00000210       0x20 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_sf_to_si.o)
- .debug_frame   0x00000230       0x20 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clzsi2.o)
- .debug_frame   0x00000250       0x20 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_pack_sf.o)
- .debug_frame   0x00000270       0x20 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_unpack_sf.o)
- .debug_frame   0x00000290       0x20 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fpcmp_parts_sf.o)
+ .debug_frame   0x0000000000000000      0x200 obj\Debug\h_bridge.o
+ .debug_frame   0x0000000000000200      0x188 obj\Debug\main.o
+ .debug_frame   0x0000000000000388       0x70 obj\Debug\servo.o
 
-.debug_str      0x00000000      0x470
+.debug_str      0x0000000000000000      0x71b
  *(.debug_str)
- .debug_str     0x00000000       0xdb obj\Debug\fuse.o
-                                0x114 (size before relaxing)
- .debug_str     0x000000db       0xab obj\Debug\h_bridge.o
-                                0x1a5 (size before relaxing)
- .debug_str     0x00000186       0x18 obj\Debug\main.o
-                                0x107 (size before relaxing)
- .debug_str     0x0000019e       0x63 obj\Debug\servo.o
-                                0x15d (size before relaxing)
- .debug_str     0x00000201       0x80 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fixunssfsi.o)
-                                 0xfe (size before relaxing)
- .debug_str     0x00000281      0x14d c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_addsub_sf.o)
-                                0x206 (size before relaxing)
- .debug_str     0x000003ce       0x27 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_mul_sf.o)
-                                0x1bf (size before relaxing)
- .debug_str     0x000003f5        0x8 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_ge_sf.o)
-                                0x195 (size before relaxing)
- .debug_str     0x000003fd       0x1e c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_si_to_sf.o)
-                                0x17b (size before relaxing)
- .debug_str     0x0000041b        0xa c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_sf_to_si.o)
-                                0x19e (size before relaxing)
- .debug_str     0x00000000      0x103 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_thenan_sf.o)
- .debug_str     0x00000425       0x20 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clzsi2.o)
-                                0x111 (size before relaxing)
- .debug_str     0x00000445       0x10 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_pack_sf.o)
-                                0x19d (size before relaxing)
- .debug_str     0x00000455        0xb c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_unpack_sf.o)
-                                0x17f (size before relaxing)
- .debug_str     0x00000460       0x10 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fpcmp_parts_sf.o)
-                                0x163 (size before relaxing)
- .debug_str     0x00000000       0xf4 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clz.o)
+ .debug_str     0x0000000000000000      0x3e9 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+ .debug_str     0x00000000000003e9       0xe0 obj\Debug\fuse.o
+                                        0x114 (size before relaxing)
+ .debug_str     0x00000000000004c9       0xec obj\Debug\h_bridge.o
+                                        0x15e (size before relaxing)
+ .debug_str     0x00000000000005b5       0xdb obj\Debug\main.o
+                                        0x1e6 (size before relaxing)
+ .debug_str     0x0000000000000690       0x2c obj\Debug\servo.o
+                                        0x15d (size before relaxing)
+ .debug_str     0x00000000000006bc       0x5f c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_divmodhi4.o)
+ .debug_str     0x000000000000071b       0x5f c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_divmodsi4.o)
+ .debug_str     0x000000000000071b       0x5f c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_negsi2.o)
+ .debug_str     0x000000000000071b       0x5f c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_exit.o)
+ .debug_str     0x000000000000071b       0x5f c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_tablejump2.o)
+ .debug_str     0x000000000000071b       0x5f c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_clear_bss.o)
+ .debug_str     0x000000000000071b       0x5f c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_muluhisi3.o)
+ .debug_str     0x000000000000071b       0x5f c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_udivmodhi4.o)
+ .debug_str     0x000000000000071b       0x5f c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_udivmodsi4.o)
+ .debug_str     0x000000000000071b       0x5f c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_umulhisi3.o)
 
-.debug_loc      0x00000000      0x896
+.debug_loc
  *(.debug_loc)
- .debug_loc     0x00000000       0x34 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fixunssfsi.o)
- .debug_loc     0x00000034      0x32a c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_addsub_sf.o)
- .debug_loc     0x0000035e      0x104 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_mul_sf.o)
- .debug_loc     0x00000462       0x3c c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_ge_sf.o)
- .debug_loc     0x0000049e       0xac c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_si_to_sf.o)
- .debug_loc     0x0000054a       0x7e c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_sf_to_si.o)
- .debug_loc     0x000005c8       0x94 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clzsi2.o)
- .debug_loc     0x0000065c      0x13e c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_pack_sf.o)
- .debug_loc     0x0000079a       0xac c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_unpack_sf.o)
- .debug_loc     0x00000846       0x50 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fpcmp_parts_sf.o)
 
 .debug_macinfo
  *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+                0x0000000000000000      0x14f
+ *(.debug_line_str)
+ .debug_line_str
+                0x0000000000000000       0x95 obj\Debug\h_bridge.o
+                                         0xfa (size before relaxing)
+ .debug_line_str
+                0x0000000000000095       0x67 obj\Debug\main.o
+                                        0x14e (size before relaxing)
+ .debug_line_str
+                0x00000000000000fc       0x53 c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_divmodhi4.o)
+                                         0x5f (size before relaxing)
+ .debug_line_str
+                0x000000000000014f       0x5f c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_divmodsi4.o)
+ .debug_line_str
+                0x000000000000014f       0x5f c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_negsi2.o)
+ .debug_line_str
+                0x000000000000014f       0x5f c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_exit.o)
+ .debug_line_str
+                0x000000000000014f       0x5f c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_tablejump2.o)
+ .debug_line_str
+                0x000000000000014f       0x5f c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_clear_bss.o)
+ .debug_line_str
+                0x000000000000014f       0x5f c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_muluhisi3.o)
+ .debug_line_str
+                0x000000000000014f       0x5f c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_udivmodhi4.o)
+ .debug_line_str
+                0x000000000000014f       0x5f c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_udivmodsi4.o)
+ .debug_line_str
+                0x000000000000014f       0x5f c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_umulhisi3.o)
+
+.debug_loclists
+ *(.debug_loclists)
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+ *(.debug_rnglists)
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
 OUTPUT(bin\Debug\Assistive_Devices_Code_V1.elf elf32-avr)
 LOAD linker stubs
-
-.debug_ranges   0x00000000       0x50
- .debug_ranges  0x00000000       0x50 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_mul_sf.o)
 
 Cross Reference Table
 
 Symbol                                            File
-__addsf3                                          c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_addsub_sf.o)
+__FUSE_REGION_LENGTH__                            c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__addsf3                                          c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(addsf3.o)
                                                   obj\Debug\servo.o
-__bad_interrupt                                   c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
-__clz_tab                                         c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clz.o)
-                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clzsi2.o)
-__clzsi2                                          c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clzsi2.o)
-                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_si_to_sf.o)
-__data_end                                        c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
-__data_load_start                                 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
-__data_start                                      c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
-__divmodhi4                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_divmodhi4.o)
+__addsf3x                                         c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(addsf3x.o)
+                                                  c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(addsf3.o)
+__bad_interrupt                                   c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__bss_end                                         c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_clear_bss.o)
+__bss_start                                       c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_clear_bss.o)
+__cmpsf2                                          c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(cmpsf2.o)
+__divmodhi4                                       c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_divmodhi4.o)
                                                   obj\Debug\h_bridge.o
-__divmodsi4                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_divmodsi4.o)
+__divmodsi4                                       c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_divmodsi4.o)
                                                   obj\Debug\h_bridge.o
-__do_copy_data                                    c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
-                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clz.o)
-                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_thenan_sf.o)
-__epilogue_restores__                             c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_epilogue.o)
-                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_sf_to_si.o)
-                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_si_to_sf.o)
-                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_ge_sf.o)
-                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_mul_sf.o)
-                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_addsub_sf.o)
-__fixsfsi                                         c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_sf_to_si.o)
-                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fixunssfsi.o)
-__fixunssfsi                                      c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fixunssfsi.o)
+__do_clear_bss                                    c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_clear_bss.o)
+                                                  obj\Debug\main.o
+__eqsf2                                           c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(cmpsf2.o)
+__fixunssfsi                                      c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fixunssfsi.o)
                                                   obj\Debug\servo.o
-__floatsisf                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_si_to_sf.o)
+                                                  obj\Debug\main.o
+__floatsisf                                       c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(floatsisf.o)
                                                   obj\Debug\servo.o
-__fpcmp_parts_f                                   c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fpcmp_parts_sf.o)
-                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_ge_sf.o)
+__floatunsisf                                     c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(floatsisf.o)
+__fp_cmp                                          c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_cmp.o)
+                                                  c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(gesf2.o)
+                                                  c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(cmpsf2.o)
+__fp_inf                                          c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_inf.o)
+                                                  c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(mulsf3x.o)
+                                                  c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(addsf3x.o)
+__fp_nan                                          c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_nan.o)
+                                                  c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(mulsf3x.o)
+                                                  c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(addsf3x.o)
+__fp_pscA                                         c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_pscA.o)
+                                                  c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(mulsf3x.o)
+                                                  c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(addsf3x.o)
+__fp_pscB                                         c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_pscB.o)
+                                                  c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(mulsf3x.o)
+                                                  c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(addsf3x.o)
+__fp_round                                        c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_round.o)
+                                                  c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(mulsf3.o)
+                                                  c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(addsf3.o)
+__fp_split3                                       c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_split3.o)
+                                                  c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(mulsf3x.o)
+                                                  c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(addsf3x.o)
+__fp_splitA                                       c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_split3.o)
+                                                  c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fixunssfsi.o)
+__fp_szero                                        c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_zero.o)
+                                                  c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(mulsf3x.o)
+__fp_zero                                         c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fp_zero.o)
+                                                  c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(fixunssfsi.o)
+                                                  c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(addsf3x.o)
 __fuse                                            obj\Debug\fuse.o
-__gesf2                                           c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_ge_sf.o)
-                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fixunssfsi.o)
-__heap_end                                        c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
-__init                                            c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
-__mulsf3                                          c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_mul_sf.o)
+__gesf2                                           c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(gesf2.o)
+__gtsf2                                           c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(gesf2.o)
+                                                  obj\Debug\main.o
+__heap_end                                        c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__init                                            c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__lesf2                                           c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(cmpsf2.o)
+__ltsf2                                           c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(cmpsf2.o)
+                                                  obj\Debug\main.o
+__mulsf3                                          c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(mulsf3.o)
                                                   obj\Debug\servo.o
-__mulsi3                                          c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_mulsi3.o)
+                                                  obj\Debug\main.o
+__mulsf3_pse                                      c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(mulsf3x.o)
+__mulsf3x                                         c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(mulsf3x.o)
+                                                  c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(mulsf3.o)
+__muluhisi3                                       c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_muluhisi3.o)
                                                   obj\Debug\h_bridge.o
-__pack_f                                          c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_pack_sf.o)
-                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_si_to_sf.o)
-                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_mul_sf.o)
-                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_addsub_sf.o)
-__prologue_saves__                                c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_prologue.o)
-                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_sf_to_si.o)
-                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_si_to_sf.o)
-                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_ge_sf.o)
-                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_mul_sf.o)
-                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_addsub_sf.o)
-__stack                                           c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
-__subsf3                                          c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_addsub_sf.o)
-                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_fixunssfsi.o)
-__thenan_sf                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_thenan_sf.o)
-                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_mul_sf.o)
-                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_addsub_sf.o)
-__udivmodhi4                                      c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_udivmodhi4.o)
-                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_divmodhi4.o)
-__udivmodsi4                                      c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_udivmodsi4.o)
-                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_divmodsi4.o)
-__unpack_f                                        c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_unpack_sf.o)
-                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_sf_to_si.o)
-                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_ge_sf.o)
-                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_mul_sf.o)
-                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_addsub_sf.o)
-__vector_1                                        c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
-__vector_10                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
-__vector_11                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
-__vector_12                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
-__vector_13                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
-__vector_14                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
-__vector_15                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
-__vector_16                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+__negsi2                                          c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_negsi2.o)
+                                                  c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_divmodsi4.o)
+__nesf2                                           c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(cmpsf2.o)
+__stack                                           c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__subsf3                                          c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6\libm.a(addsf3.o)
+__tablejump2__                                    c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_tablejump2.o)
+                                                  obj\Debug\main.o
+__udivmodhi4                                      c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_udivmodhi4.o)
+                                                  c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_divmodhi4.o)
+__udivmodsi4                                      c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_udivmodsi4.o)
+                                                  c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_divmodsi4.o)
+__umulhisi3                                       c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_umulhisi3.o)
+                                                  c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_muluhisi3.o)
+__vector_1                                        c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_10                                       c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_11                                       c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_12                                       c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_13                                       c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_14                                       c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_15                                       c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_16                                       c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
 __vector_17                                       obj\Debug\servo.o
-                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+                                                  c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
 __vector_18                                       obj\Debug\servo.o
-                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
-__vector_19                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
-__vector_2                                        c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+                                                  c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_19                                       c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_2                                        c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
 __vector_20                                       obj\Debug\servo.o
-                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+                                                  c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
 __vector_21                                       obj\Debug\h_bridge.o
-                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+                                                  c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
 __vector_22                                       obj\Debug\h_bridge.o
-                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+                                                  c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
 __vector_23                                       obj\Debug\h_bridge.o
-                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
-__vector_24                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
-__vector_25                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
-__vector_26                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
-__vector_27                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
-__vector_28                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
-__vector_29                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
-__vector_3                                        c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
-__vector_30                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
-__vector_31                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+                                                  c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_24                                       c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_25                                       c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_26                                       c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_27                                       c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_28                                       c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_29                                       c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_3                                        c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_30                                       c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_31                                       c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
 __vector_32                                       obj\Debug\h_bridge.o
-                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+                                                  c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
 __vector_33                                       obj\Debug\h_bridge.o
-                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
-__vector_34                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+                                                  c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_34                                       c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
 __vector_35                                       obj\Debug\h_bridge.o
-                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
-__vector_36                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
-__vector_37                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
-__vector_38                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
-__vector_39                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
-__vector_4                                        c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
-__vector_40                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
-__vector_41                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
-__vector_42                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
-__vector_43                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
-__vector_44                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
-__vector_45                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
-__vector_46                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
-__vector_47                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
-__vector_48                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
-__vector_49                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
-__vector_5                                        c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
-__vector_50                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
-__vector_51                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
-__vector_52                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
-__vector_53                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
-__vector_54                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
-__vector_55                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
-__vector_56                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
-__vector_6                                        c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
-__vector_7                                        c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
-__vector_8                                        c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
-__vector_9                                        c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
-__vector_default                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
-__vectors                                         c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
-_div                                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_divmodhi4.o)
-_exit                                             c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_exit.o)
-exit                                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_exit.o)
-                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+                                                  c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_36                                       c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_37                                       c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_38                                       c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_39                                       c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_4                                        c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_40                                       c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_41                                       c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_42                                       c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_43                                       c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_44                                       c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_45                                       c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_46                                       c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_47                                       obj\Debug\main.o
+                                                  c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_48                                       obj\Debug\main.o
+                                                  c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_49                                       c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_5                                        c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_50                                       obj\Debug\main.o
+                                                  c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_51                                       c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_52                                       c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_53                                       c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_54                                       c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_55                                       c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_56                                       c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_6                                        c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_7                                        c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_8                                        c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_9                                        c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vector_default                                  c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+__vectors                                         c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
+_div                                              c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_divmodhi4.o)
+_exit                                             c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_exit.o)
+buzz                                              obj\Debug\main.o
+buzzer                                            obj\Debug\main.o
+exit                                              c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/avr6\libgcc.a(_exit.o)
+                                                  c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
 h_bridge_set_percentage                           obj\Debug\h_bridge.o
                                                   obj\Debug\main.o
-h_bridge_set_percentage1                          obj\Debug\h_bridge.o
 h_bridge_set_percentage2                          obj\Debug\h_bridge.o
+                                                  obj\Debug\main.o
 init                                              obj\Debug\main.o
 init_h_bridge                                     obj\Debug\h_bridge.o
                                                   obj\Debug\main.o
 init_servo                                        obj\Debug\servo.o
                                                   obj\Debug\main.o
+knipper                                           obj\Debug\main.o
+knipperLichten                                    obj\Debug\main.o
 main                                              obj\Debug\main.o
-                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+                                                  c:/program files (x86)/avr-gcc-12.0.1/bin/../lib/gcc/avr/12.1.0/../../../../avr/lib/avr6/crtatmega2560.o
 servo1_set_percentage                             obj\Debug\servo.o
                                                   obj\Debug\main.o
 servo2_set_percentage                             obj\Debug\servo.o

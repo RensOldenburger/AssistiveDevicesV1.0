@@ -188,24 +188,24 @@ void h_bridge_set_percentage(signed char percentage)
 }
 
 
-void h_bridge_set_percentage1(signed char percentage)
-{
-	if (percentage >= -100 && percentage <= 100)
-	{
-		if (percentage >= 0)
-		{
-			// Disable LPWM, calculate RPWM
-			OCR1B = 0;
-			OCR1A = (65535*percentage)/100;
-		}
-		else // percentage < 0
-		{
-			// Disable RPWM, calculate LPWM
-			OCR1A = 0;
-			OCR1B = (65535*percentage)/-100;
-		}
-	}
-}
+//void h_bridge_set_percentage1(signed char percentage)
+//{
+//	if (percentage >= -100 && percentage <= 100)
+//	{
+//		if (percentage >= 0)
+//		{
+//			// Disable LPWM, calculate RPWM
+//			OCR1B = 0;
+//			OCR1A = (65535*percentage)/100;
+//		}
+//		else // percentage < 0
+//		{
+//			// Disable RPWM, calculate LPWM
+//			OCR1A = 0;
+//			OCR1B = (65535*percentage)/-100;
+//		}
+//	}
+//}
 void h_bridge_set_percentage2(signed char percentage)
 {
 	if (percentage >= -100 && percentage <= 100)
