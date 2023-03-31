@@ -40,3 +40,21 @@
 
 1680175886 c:\users\rensh\documents\github\assistivedevicesv1.0\assistive_devices_code_v1\h_bridge.h
 
+1680262149 source:c:\users\rensh\documents\github\assistivedevicesv1.0\assistive_devices_code_v1\main.c
+	"h_bridge.h"
+	"servo.h"
+	"functions.c"
+	<avr/interrupt.h>
+	<util/delay.h>
+	<avr/io.h>
+
+1680261998 c:\users\rensh\documents\github\assistivedevicesv1.0\assistive_devices_code_v1\functions.c
+	<avr/io.h>
+	<avr/interrupt.h>
+	<util/delay.h>
+
+1680262319 source:c:\users\rensh\documents\github\assistivedevicesv1.0\assistive_devices_code_v1\functions.c
+	<avr/io.h>
+	<avr/interrupt.h>
+	<util/delay.h>
+

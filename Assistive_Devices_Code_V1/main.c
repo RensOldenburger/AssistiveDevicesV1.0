@@ -4,6 +4,7 @@
 
 #include "h_bridge.h"
 #include "servo.h"
+#include "functions.c"
 
 #include <avr/interrupt.h>
 #include <util/delay.h>
@@ -15,18 +16,20 @@
 #define OCB_INIT5   ((TCNT_INIT5) + 40000u)
 
 //schakelaars
-#define home_switch         PA0
-#define top_switch          PA1
-#define middel_switch       PA5
+#define home_switch         PA1         // pin 23
+#define top_switch          PA3         // pin 25
+#define middel_switch       PA5         // pin 27
+#define uitgeklapt_switch   PA7         // pin 29
+#define ingeklapt_switch    PC6         // pin 31    let op port C!
 
 //bediningpaneel
 #define opbouw_knop         PF0			// pin A0
 #define afbouw_knop         PF1			// pin A1
-#define volgende_steiger    PF2			// pin A2
+#define neerzetten_knop     PF2			// pin A2
+#define in_uit_klappen      PF3         // pin A3
 #define nood_knop	        PF4			// pin A4
 
 int buzz = 0;
-int knipper = 0;
 
 void buzzer(signed char power)                          // buzzer function
 {                                                       // als je een '1' meegeeft aan de functie gaat de buzzer aan
@@ -85,8 +88,8 @@ int main(void)
 	PORTF |= (1<<PF7);                                  // ledje in de noodknop init uit
 
 	//bedingingpaneel
-	PORTF |= (1<<opbouw_knop) | (1<<afbouw_knop) | (1<<volgende_steiger) | (1<<nood_knop);   		// eneble alle knoppen voor input
-	DDRF |= (1<<opbouw_knop) | (1<<afbouw_knop) | (1<<volgende_steiger) | (1<<nood_knop);		// eneble interne pullup resistor
+	PORTF |= (1<<opbouw_knop) | (1<<afbouw_knop) | (1<<neerzetten_knop) | (1<<nood_knop);   		// eneble alle knoppen voor input
+	DDRF |= (1<<opbouw_knop) | (1<<afbouw_knop) | (1<<neerzetten_knop) | (1<<nood_knop);		// eneble interne pullup resistor
 
 	//schakelaars
 	PORTA &= (1<<home_switch);
@@ -108,153 +111,203 @@ int main(void)
                 buzz = 0;                           // wordt de buzzer gereset en kan opnieuw aangezet worden
             }
         }
-        if (knipper >= 15)
-        {
-            knipperLichten(0);
-            knipper = 0;
-        }
+//        if (knipper >= 15)
+//        {
+//            knipperLichten(0);
+//            knipper = 0;
+//        }
         if ((PINF & (1<<PF4)) == 0)                 // nood stop indrukken
         {
             DEBOUNCE;
+            PORTF &= ~(1<<PF7);                     // als de noodstop is ingedrukt brandt het ledje
+            buzzer(1);
+            status = 0;
+        }
+		switch(status)
+		{
+        case 0: // nood_toestand
+
+            knipperLichten(1);
             h_bridge_set_percentage(0);
             h_bridge_set_percentage2(0);
-            buzzer(0);
-            knipperLichten(0);
-            PORTF &= ~(1<<PF7);                     // als de noodstop is ingedrukt brandt het ledje
+
+            /// LCD (nood situatie)
+
             if ((PINF & (1<<PF4)) != 0)
             {
                 DEBOUNCE;
                 PORTF |= (1<<PF7);                  // als de noodstop weer wordt losgelaten gaat het ledje uit
-                status = 0;
-            }
-        }
-		switch(status)
-		{
-        case 0:
-            if(!(PINA & (1<<home_switch)))
-            {
-                DEBOUNCE;
-                status = 2;
-                break;
-            }
-            break;
-        case 1:
-            if(!(PINA & (1<<home_switch)))
-            {
-                DEBOUNCE;
-                status = 0;
-                break;
-            }
-            h_bridge_set_percentage(-70);
-            h_bridge_set_percentage2(-70);
-            break;
-        case 2:
-            if(!(PINF & (1<<opbouw_knop)))
-            {
-                DEBOUNCE;
-                knipperLichten(0);
-                status = 3;
-                break;
-            }
-            if(!(PINF & (1<<afbouw_knop)))
-            {
-                DEBOUNCE;
-                status = 4;
-                break;
+                status = 1;
             }
             break;
 
-            //Opbouwen
-        case 3:
-            servo1_set_percentage(50);
-            servo2_set_percentage(50);
-            status = 5;
-            break;
-        case 5:
-            if (!(PINA & (1<<top_switch)))
+        case 1: // init_state
+            knipperLichten(0);
+            servo1_set_percentage(0);    // ingeklapt
+            servo2_set_percentage(0);    // ingeklapt
+            h_bridge_set_percentage(0);
+            h_bridge_set_percentage2(0);
+
+            /// LCD (start)
+
+            if ((PINF & (1<<in_uit_klappen)) == 0)
             {
                 DEBOUNCE;
-                h_bridge_set_percentage(0);
-                status = 7;
-                break;
+                status = 2;
             }
-            h_bridge_set_percentage(70);
-            h_bridge_set_percentage2(70);
             break;
-        case 7:
-            if(!(PINF & (1<<volgende_steiger)))
+
+        case 2: // wacht
+            h_bridge_set_percentage(80);    // keine motor
+            knipperLichten(1);
+            buzzer(1);
+
+            /// LCD (omhoog)
+
+            if ((PINA & (1<<uitgeklapt_switch)) == 0)
+            {
+                DEBOUNCE;
+                status = 3;
+            }
+            break;
+
+        case 3: // stijger_plaatsen
+            h_bridge_set_percentage(0);
+            knipperLichten(0);
+
+            /// LCD (plaats stijgerdeel)
+
+            if ((PINF & (1<<in_uit_klappen)) == 0)
+            {
+                DEBOUNCE;
+                // case inklappen
+            }
+            if ((PINF & (1<<opbouw_knop)) == 0)
+            {
+                DEBOUNCE;
+                status = 4;
+            }
+            break;
+
+        case 4: // opbouwen
+            servo1_set_percentage(90);      // hier moet nog gekeken worden wat de juiste waarde is
+            servo2_set_percentage(90);      // ze moeten hier worden uitgeklapt
+            buzzer(1);
+            knipperLichten(1);
+
+            /// LCD (opbouw)
+
+            _delay_ms(500); // om te zorgen dat de servo's uit zijn voor de motor aan gaat
+
+            h_bridge_set_percentage2(80);
+
+            if ((PINA & (1<<top_switch)) == 0)
+            {
+                DEBOUNCE;
+                status = 5;
+            }
+            break;
+
+        case 5: // volgende_stijger
+            h_bridge_set_percentage2(0);
+            knipperLichten(0);
+
+            /// LCD (plaats volgend stijgerdeer)
+
+            if ((PINF & (1<<neerzetten_knop)) == 0)
+            {
+                DEBOUNCE;
+                status = 6;
+            }
+            break;
+
+        case 6: // neerzetten (opbouwen)
+            h_bridge_set_percentage2(-50);
+            buzzer(1);
+            knipperLichten(1);
+
+            /// LCD (neerzetten)
+
+            if ((PINA & (1<<middel_switch)) == 0)
+            {
+                DEBOUNCE;
+                status = 7;
+            }
+            break;
+
+        case 7: // stijger_opgestapeld
+            h_bridge_set_percentage2(0);
+            servo1_set_percentage(0);       // moet nog naar gekeken worden
+            servo2_set_percentage(0);       // servo's moeten ingeklapt
+            knipperLichten(0);
+
+            /// LDC (stijger opgestapeld)
+
+            if ((PINF & (1<<opbouw_knop)) == 0)
+            {
+                DEBOUNCE;
+                status = 8;
+            }
+            if ((PINF & (1<<afbouw_knop)) == 0)
             {
                 DEBOUNCE;
                 status = 9;
             }
             break;
-        case 9:
-            if(!(PINA & (1<<middel_switch)))
+
+        case 8: // door_bouwen
+            h_bridge_set_percentage2(80);
+            knipperLichten(1);
+            buzzer(1);
+
+            /// LCD (door bouwen)
+
+            if ((PINA & (1<<home_switch)) == 0)
             {
                 DEBOUNCE;
-                h_bridge_set_percentage(0);
-                status = 11;
-                break;
+                status = 4;
             }
-           h_bridge_set_percentage(-70);
-           break;
-        case 11:
-            servo1_set_percentage(-50);
-            servo2_set_percentage(-50);
-            status = 13;
             break;
-        case 13:
-            if (!(PINA & (1<<home_switch)))
+
+        case 9: // afbouwen
+            buzzer(1);
+            knipperLichten(1);
+            servo1_set_percentage(50);      // moet nog naar gekeken worden
+            servo2_set_percentage(50);      // moet worden uitgeklapt
+
+            /// LCD (afbouwen)
+
+            h_bridge_set_percentage2(20);
+            if ((PINA & (1<<top_switch)) == 0)
             {
                 DEBOUNCE;
-                h_bridge_set_percentage(0);
-                status = 2;
-                break;
-            }
-            h_bridge_set_percentage(-70);
-            break;
-        case 4:
-            if (!(PINA &(1<<middel_switch)))
-            {
-                DEBOUNCE;
-                h_bridge_set_percentage(0);
-                status = 6;
-                break;
-            }
-            h_bridge_set_percentage(70);
-            break;
-        case 6:
-            servo1_set_percentage(50);
-            servo2_set_percentage(50);
-            status = 8;
-            break;
-        case 8:
-            if(!(PINA & (1<<top_switch)))
-            {
-                DEBOUNCE;
-                h_bridge_set_percentage(0);
                 status = 10;
-                break;
             }
-            h_bridge_set_percentage(70);
-            break;
-        case 10:
-            ;;
-            break;
-        case 12:
-            if(!(PINA & (1<<home_switch)))
+           break;
+
+        case 10: // stijger_weghalen
+            knipperLichten(0);
+
+            /// LCD (stijger weghalen)
+
+            if ((PINF & (1<<neerzetten_knop)) == 0)
             {
                 DEBOUNCE;
-                h_bridge_set_percentage(0);
-                status = 14;
-                break;
+                status = 11;
             }
-            h_bridge_set_percentage(-70);
-	    break;
-        case 14:
-            servo1_set_percentage(-50);
-            servo2_set_percentage(-50);
-            status = 2;
+            break;
+
+        case 11: // neerzetten (afbouwen)
+            buzzer(1);
+            knipperLichten(1);
+
+            /// LCD (neerzetten)
+
+            if ((PINA & (1<<home_switch)) == 0)
+            {
+                DEBOUNCE;
+                status = 3;
+            }
             break;
 		}
 	}
@@ -266,7 +319,6 @@ ISR(TIMER5_COMPA_vect)          // timer 1 interrupt compare voor knipperlichten
 {
 	PORTK |= (1<<PK7);          // ledjes knipperen
 	PORTK &= ~(1<<PK6);
-	knipper++;
 }
 
 ISR(TIMER5_COMPB_vect)          // timer 1 interrupt compare voor knipperlichten
