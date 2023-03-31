@@ -19,9 +19,9 @@
 #define PIN_1	PE3
 #define DDR_1	DDRE
 
-#define PORT_2	PORTH
-#define PIN_2	PH3
-#define DDR_2	DDRH
+#define PORT_2	PORTG
+#define PIN_2	PG5
+#define DDR_2	DDRG
 
 void init_servo(void);
 void servo1_set_percentage(signed char percentage);

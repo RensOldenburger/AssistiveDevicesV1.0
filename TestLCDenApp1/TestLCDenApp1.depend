@@ -17,3 +17,21 @@
 	<avr/interrupt.h>
 	"LCDenBluetooth.h"
 
+1680175886 source:c:\users\rensh\documents\github\assistivedevicesv1.0\testlcdenapp1\fuse.c
+	<avr/io.h>
+
+1680175886 source:c:\users\rensh\documents\github\assistivedevicesv1.0\testlcdenapp1\lcdenbluetooth.c
+	<avr/io.h>
+	<util/delay.h>
+	<stdlib.h>
+	<avr/interrupt.h>
+	"LCDenBluetooth.h"
+
+1680175886 c:\users\rensh\documents\github\assistivedevicesv1.0\testlcdenapp1\lcdenbluetooth.h
+
+1680175886 source:c:\users\rensh\documents\github\assistivedevicesv1.0\testlcdenapp1\main.c
+	<avr/io.h>
+	<stdio.h>
+	<util/delay.h>
+	"LCDenBluetooth.h"
+

@@ -42,7 +42,7 @@ void init_servo(void)
 	TCCR4A = 0;
 	TCCR4B = (0<<CS42) | (1<<CS41) | (0<<CS40);
 	// Interrupts on OCA, OCB and OVF
-	TIMS4 = (1<<OCIE4B) | (1<<OCIE4A) | (1<<TOIE4);
+	TIMSK4 = (1<<OCIE4B) | (1<<OCIE4A) | (1<<TOIE4);
 
 	TCNT4 = RESET_VALUE;
 
@@ -62,7 +62,7 @@ void servo1_set_percentage(signed char percentage)
 
 void servo2_set_percentage(signed char percentage)
 {
-	if (percentage >= -100 && percentage <= 100)2
+	if (percentage >= -100 && percentage <= 100)
 	{
 		OCR4B = RESET_VALUE+STOP_VALUE+(RANGE/100*percentage);
 	}

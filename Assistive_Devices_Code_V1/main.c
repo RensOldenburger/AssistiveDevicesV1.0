@@ -11,7 +11,7 @@
 
 #define DEBOUNCE	_delay_ms(20)		                // debounce delay voor de knoppen
 #define TCNT_INIT5  10000u                              // timer init
-#define OCA_INIT5    ((TCNT_INIT5) + 25000u)             // timer compare init
+#define OCA_INIT5    ((TCNT_INIT5) + 25000u)            // timer compare init
 #define OCB_INIT5   ((TCNT_INIT5) + 40000u)
 
 //schakelaars
@@ -20,11 +20,9 @@
 #define middel_switch       PA5
 
 //bediningpaneel
-#define home_knop           PF0			// pin A0
-#define opbouw_knop         PF1			// pin A1
-#define afbouw_knop         PF2			// pin A2
-#define volgende_steiger    PF3			// pin A3
-#define vorige_steiger      PF5			// pin A5
+#define opbouw_knop         PF0			// pin A0
+#define afbouw_knop         PF1			// pin A1
+#define volgende_steiger    PF2			// pin A2
 #define nood_knop	        PF4			// pin A4
 
 int buzz = 0;
@@ -56,7 +54,7 @@ void knipperLichten(signed char power)                  // knipperlicht functie 
     }
 }
 
-static void init_timer5(void)                           // timer 5 plus interrupt enable
+static void init_timer5(void)                            // timer 5 plus interrupt enable
 {
 	TCCR5A = 0;
 	TCCR5B = (1<<CS52) | (0<<CS51) | (0<<CS50);         // set prescale van 256
@@ -87,8 +85,8 @@ int main(void)
 	PORTF |= (1<<PF7);                                  // ledje in de noodknop init uit
 
 	//bedingingpaneel
-	PORTF |= (1<<home_knop) | (1<<opbouw_knop) | (1<<afbouw_knop) | (1<<volgende_steiger) | (1<<vorige_steiger);   		// eneble alle knoppen voor input
-	DDRF |= (1<<home_knop) | (1<<opbouw_knop) | (1<<afbouw_knop) | (1<<volgende_steiger) | (1<<vorige_steiger);		// eneble interne pullup resistor
+	PORTF |= (1<<opbouw_knop) | (1<<afbouw_knop) | (1<<volgende_steiger) | (1<<nood_knop);   		// eneble alle knoppen voor input
+	DDRF |= (1<<opbouw_knop) | (1<<afbouw_knop) | (1<<volgende_steiger) | (1<<nood_knop);		// eneble interne pullup resistor
 
 	//schakelaars
 	PORTA &= (1<<home_switch);
@@ -97,16 +95,17 @@ int main(void)
 	int status = 0;						// status voor de switch case statement
 
     knipperLichten(0);
-
+    h_bridge_set_percentage(0);
+    h_bridge_set_percentage2(0);
 
 	while (1)
 	{
-        if (buzz >= 8)
+        if (buzz >= 8)                              // buzzer gaat 8 keer aan en uit door timer 5
         {
-            buzzer(0);
-            if (TIMSK5 == 0x00)
+            buzzer(0);                              // na 8 keer stopt de buzzer
+            if (TIMSK5 == 0x00)                     // als timer 5 uit staat
             {
-                buzz = 0;
+                buzz = 0;                           // wordt de buzzer gereset en kan opnieuw aangezet worden
             }
         }
         if (knipper >= 15)
@@ -122,11 +121,11 @@ int main(void)
             buzzer(0);
             knipperLichten(0);
             PORTF &= ~(1<<PF7);                     // als de noodstop is ingedrukt brandt het ledje
-            status = 0;
             if ((PINF & (1<<PF4)) != 0)
             {
                 DEBOUNCE;
                 PORTF |= (1<<PF7);                  // als de noodstop weer wordt losgelaten gaat het ledje uit
+                status = 0;
             }
         }
 		switch(status)
@@ -137,18 +136,6 @@ int main(void)
                 DEBOUNCE;
                 status = 2;
                 break;
-            }
-            if (PINA &(1<<home_switch))
-            {
-                DEBOUNCE;
-                if(!(PINF & (1<<home_knop)))
-                {
-                    DEBOUNCE;
-                    knipperLichten(1);
-                    buzzer(1);
-                    status = 2;
-                    break;
-                }
             }
             break;
         case 1:
@@ -252,11 +239,7 @@ int main(void)
             h_bridge_set_percentage(70);
             break;
         case 10:
-            if(!(PINF &(1<<vorige_steiger)))
-            {
-                DEBOUNCE;
-                status = 12;
-            }
+            ;;
             break;
         case 12:
             if(!(PINA & (1<<home_switch)))
@@ -273,10 +256,8 @@ int main(void)
             servo2_set_percentage(-50);
             status = 2;
             break;
-
 		}
 	}
-
 	return 0;
 }
 
