@@ -5,6 +5,7 @@
 #include "h_bridge.h"
 #include "servo.h"
 #include "functions.c"
+#include "LCDenBluetooth.h"
 
 #include <avr/interrupt.h>
 #include <util/delay.h>
@@ -131,7 +132,9 @@ int main(void)
             h_bridge_set_percentage(0);
             h_bridge_set_percentage2(0);
 
-            /// LCD (nood situatie)
+            LCD_Scherm_Leeg();
+            LCD_Naar_Locatie(1, 1);
+	    Stuur_LCD_String("Noodtoestand");
 
             if ((PINF & (1<<PF4)) != 0)
             {
@@ -148,6 +151,9 @@ int main(void)
             h_bridge_set_percentage(0);
             h_bridge_set_percentage2(0);
 
+		LCD_Scherm_Leeg();
+           	LCD_Naar_Locatie(1, 1);
+	    	Stuur_LCD_String("Opstarten");
             /// LCD (start)
 
             if ((PINF & (1<<in_uit_klappen)) == 0)
@@ -162,6 +168,9 @@ int main(void)
             knipperLichten(1);
             buzzer(1);
 
+		LCD_Scherm_Leeg();
+           	LCD_Naar_Locatie(1, 1);
+	    	Stuur_LCD_String("Uitklappen");
             /// LCD (omhoog)
 
             if ((PINA & (1<<uitgeklapt_switch)) == 0)
@@ -175,6 +184,9 @@ int main(void)
             h_bridge_set_percentage(0);
             knipperLichten(0);
 
+		LCD_Scherm_Leeg();
+           	LCD_Naar_Locatie(1, 1);
+	    	Stuur_LCD_String("Plaats steiger");
             /// LCD (plaats stijgerdeel)
 
             if ((PINF & (1<<in_uit_klappen)) == 0)
@@ -195,6 +207,9 @@ int main(void)
             buzzer(1);
             knipperLichten(1);
 
+		LCD_Scherm_Leeg();
+           	LCD_Naar_Locatie(1, 1);
+	    	Stuur_LCD_String("Opbouwen");
             /// LCD (opbouw)
 
             _delay_ms(500); // om te zorgen dat de servo's uit zijn voor de motor aan gaat
@@ -212,6 +227,11 @@ int main(void)
             h_bridge_set_percentage2(0);
             knipperLichten(0);
 
+		LCD_Scherm_Leeg();
+           	LCD_Naar_Locatie(1, 2);
+	    	Stuur_LCD_String("Plaats volgende");
+		LCD_Naar_Locatie(1, 1);
+	    	Stuur_LCD_String("steiger");
             /// LCD (plaats volgend stijgerdeer)
 
             if ((PINF & (1<<neerzetten_knop)) == 0)
@@ -225,7 +245,10 @@ int main(void)
             h_bridge_set_percentage2(-50);
             buzzer(1);
             knipperLichten(1);
-
+		
+		LCD_Scherm_Leeg();
+		LCD_Naar_Locatie(1, 1);
+	    	Stuur_LCD_String("Neerzetten");
             /// LCD (neerzetten)
 
             if ((PINA & (1<<middel_switch)) == 0)
@@ -241,6 +264,9 @@ int main(void)
             servo2_set_percentage(0);       // servo's moeten ingeklapt
             knipperLichten(0);
 
+		LCD_Scherm_Leeg();
+		LCD_Naar_Locatie(1, 1);
+	    	Stuur_LCD_String("Plaats volgende");
             /// LDC (stijger opgestapeld)
 
             if ((PINF & (1<<opbouw_knop)) == 0)
@@ -260,6 +286,9 @@ int main(void)
             knipperLichten(1);
             buzzer(1);
 
+		LCD_Scherm_Leeg();
+		LCD_Naar_Locatie(1, 1);
+	    	Stuur_LCD_String("Door bouwen");
             /// LCD (door bouwen)
 
             if ((PINA & (1<<home_switch)) == 0)
@@ -275,6 +304,9 @@ int main(void)
             servo1_set_percentage(50);      // moet nog naar gekeken worden
             servo2_set_percentage(50);      // moet worden uitgeklapt
 
+		LCD_Scherm_Leeg();
+		LCD_Naar_Locatie(1, 1);
+	    	Stuur_LCD_String("Afbouwen");
             /// LCD (afbouwen)
 
             h_bridge_set_percentage2(20);
@@ -288,6 +320,9 @@ int main(void)
         case 10: // stijger_weghalen
             knipperLichten(0);
 
+		LCD_Scherm_Leeg();
+		LCD_Naar_Locatie(1, 1);
+	    	Stuur_LCD_String("Steiger weghalen");
             /// LCD (stijger weghalen)
 
             if ((PINF & (1<<neerzetten_knop)) == 0)
@@ -301,6 +336,9 @@ int main(void)
             buzzer(1);
             knipperLichten(1);
 
+		LCD_Scherm_Leeg();
+		LCD_Naar_Locatie(1, 1);
+	    	Stuur_LCD_String("Neerzetten");
             /// LCD (neerzetten)
 
             if ((PINA & (1<<home_switch)) == 0)
