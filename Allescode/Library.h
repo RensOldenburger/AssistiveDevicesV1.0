@@ -4,12 +4,12 @@
 #include <stdint.h>
 
 //LCD scherm
-#define LCDpoort            PORTC
-#define DataDir_LCDpoort    DDRC
-#define LCDControl          PORTD
-#define DataDir_LCDControl  DDRD
-#define LCDEnable           2
-#define ReadWrite           1
+#define LCDpoort            PORTL
+#define DataDir_LCDpoort    DDRL
+#define LCDControl          PORTG
+#define DataDir_LCDControl  DDRG
+#define LCDEnable           4
+#define ReadWrite           2
 #define LCDRS               0
 
 //Bluetooth
