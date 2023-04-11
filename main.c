@@ -69,9 +69,8 @@ int main(void)
             break;
 
         case 1: // init_state
-            knipperLichten(0);
-            servo1_set_percentage(0);    // ingeklapt
-            servo2_set_percentage(0);    // ingeklapt
+            knipperLichten(0);          // uit
+            set_servo_direction(0);     // ingeklapt
             h_bridge_set_percentage(0);
             h_bridge_set_percentage2(0);
 
@@ -124,10 +123,9 @@ int main(void)
             break;
 
         case 4: // opbouwen
-            servo1_set_percentage(90);      // hier moet nog gekeken worden wat de juiste waarde is
-            servo2_set_percentage(90);      // ze moeten hier worden uitgeklapt
-            buzzer(1);
-            knipperLichten(1);
+            set_servo_direction(1); // uitgeklapt
+            buzzer(1); // aan
+            knipperLichten(1); // aan
 
             LCD_Scherm_Leeg();
            	LCD_Naar_Locatie(1, 1);
@@ -146,7 +144,7 @@ int main(void)
 
         case 5: // volgende_stijger
             h_bridge_set_percentage2(0);
-            knipperLichten(0);
+            knipperLichten(0); // uit
 
             LCD_Scherm_Leeg();
            	LCD_Naar_Locatie(1, 2);
@@ -163,8 +161,8 @@ int main(void)
 
         case 6: // neerzetten (opbouwen)
             h_bridge_set_percentage2(-50);
-            buzzer(1);
-            knipperLichten(1);
+            buzzer(1); // aan
+            knipperLichten(1); // aan
 
             LCD_Scherm_Leeg();
             LCD_Naar_Locatie(1, 1);
@@ -179,9 +177,8 @@ int main(void)
 
         case 7: // stijger_opgestapeld
             h_bridge_set_percentage2(0);
-            servo1_set_percentage(0);       // moet nog naar gekeken worden
-            servo2_set_percentage(0);       // servo's moeten ingeklapt
-            knipperLichten(0);
+            set_servo_direction(0); // ingeklapt
+            knipperLichten(0); // uit
 
             LCD_Scherm_Leeg();
             LCD_Naar_Locatie(1, 1);
@@ -201,8 +198,8 @@ int main(void)
 
         case 8: // door_bouwen
             h_bridge_set_percentage2(80);
-            knipperLichten(1);
-            buzzer(1);
+            knipperLichten(1); // aan
+            buzzer(1); // aan
 
             LCD_Scherm_Leeg();
             LCD_Naar_Locatie(1, 1);
@@ -216,10 +213,9 @@ int main(void)
             break;
 
         case 9: // afbouwen
-            buzzer(1);
-            knipperLichten(1);
-            servo1_set_percentage(50);      // moet nog naar gekeken worden
-            servo2_set_percentage(50);      // moet worden uitgeklapt
+            buzzer(1); // aan
+            knipperLichten(1); // aan
+            set_servo_direction(1); // uitgeklapt
 
             LCD_Scherm_Leeg();
             LCD_Naar_Locatie(1, 1);
@@ -235,7 +231,7 @@ int main(void)
            break;
 
         case 10: // stijger_weghalen
-            knipperLichten(0);
+            knipperLichten(0); // uit
 
             LCD_Scherm_Leeg();
             LCD_Naar_Locatie(1, 1);
@@ -249,8 +245,8 @@ int main(void)
             break;
 
         case 11: // neerzetten (afbouwen)
-            buzzer(1);
-            knipperLichten(1);
+            buzzer(1); // aan
+            knipperLichten(1); // aan
 
             /*
             MOTOR AAN??
@@ -268,13 +264,13 @@ int main(void)
             }
             break;
         case 12: //inklappen
-            knipperLichten(1);
-            buzzer(1);
+            knipperLichten(1); // aan
+            buzzer(1); // aan
 
             /*
             Servo's in??
-            servo1_set_percentage(0);
-            servo2_set_percentage(0);
+
+            set_servo_direction(0); // ingeklapt
             _delay_ms(500);
             */
 

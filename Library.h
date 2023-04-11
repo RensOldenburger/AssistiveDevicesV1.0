@@ -45,6 +45,7 @@ extern int Btgetallen[8];//BEETJE ONNODIG MISSCHIEN NIET HELEMAAL
 //Functies
 void buzzer(signed char power);
 void knipperLichten(signed char power);
+void set_servo_direction(signed char direction);
 void init_timer5(void);
 void init_Registers(void);
 

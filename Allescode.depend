@@ -45,3 +45,39 @@
 1681125721 d:\schoolv2\projecttilhulp\allescode\library.h
 	<stdint.h>
 
+1681199982 source:c:\users\rensh\documents\github\assistivedevicesv1.0\fuse.c
+	<avr/io.h>
+
+1681199982 source:c:\users\rensh\documents\github\assistivedevicesv1.0\h_bridge.c
+	<avr/io.h>
+	<avr/interrupt.h>
+	"h_bridge.h"
+
+1681199982 c:\users\rensh\documents\github\assistivedevicesv1.0\h_bridge.h
+
+1681199982 source:c:\users\rensh\documents\github\assistivedevicesv1.0\servo.c
+	<avr/io.h>
+	<avr/interrupt.h>
+	"servo.h"
+
+1681199982 c:\users\rensh\documents\github\assistivedevicesv1.0\servo.h
+
+1681205362 source:c:\users\rensh\documents\github\assistivedevicesv1.0\library.c
+	<avr/io.h>
+	<util/delay.h>
+	<stdlib.h>
+	<avr/interrupt.h>
+	"Library.h"
+
+1681205401 c:\users\rensh\documents\github\assistivedevicesv1.0\library.h
+	<stdint.h>
+
+1681203186 source:c:\users\rensh\documents\github\assistivedevicesv1.0\main.c
+	"h_bridge.h"
+	"servo.h"
+	"Library.h"
+	<avr/interrupt.h>
+	<util/delay.h>
+	<avr/io.h>
+	<stdio.h>
+

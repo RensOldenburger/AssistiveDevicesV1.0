@@ -43,6 +43,20 @@ void knipperLichten(signed char power)                  // knipperlicht functie 
     }
 }
 
+void set_servo_direction(signed char direction)
+{
+    if (direction == 1) // uitgeklapt
+    {
+        servo1_set_percentage(100);
+        servo2_set_percentage(-100);
+    }
+    if (direction == 0) // ingeklapt
+    {
+        servo1_set_percentage(-100);
+        servo2_set_percentage(100);
+    }
+}
+
 void init_timer5(void)                            // timer 5 plus interrupt enable
 {
 	TCCR5A = 0;
