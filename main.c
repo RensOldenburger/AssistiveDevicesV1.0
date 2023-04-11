@@ -21,6 +21,8 @@ void init(void)
 
 int main(void)
 {
+    DDRB |= (1 << PB7);
+    PORTB |= (1 << PB7);
 	init();				                                // run init function
 
 	int status = 0;						                // status voor de switch case statement
@@ -29,28 +31,37 @@ int main(void)
     h_bridge_set_percentage(0);
     h_bridge_set_percentage2(0);
 
+    LCD_Scherm_Leeg();
+    LCD_Naar_Locatie(1, 1);
+    Stuur_LCD_String("Noodtoestand");
+
 	while (1)
 	{
-        if (buzz >= 8)                              // buzzer gaat 8 keer aan en uit door timer 5
-        {
-            buzzer(0);                              // na 8 keer stopt de buzzer
-            if (TIMSK5 == 0x00)                     // als timer 5 uit staat
-            {
-                buzz = 0;                           // wordt de buzzer gereset en kan opnieuw aangezet worden
-            }
-        }
-        if (((PINF & (1<<PF4)) == 0) || (Bluetooth_Getal == 6))//((PINF & (1<<PF4)) == 0)                // nood stop indrukken
+//        if (buzz >= 8)                              // buzzer gaat 8 keer aan en uit door timer 5
+//        {
+//            buzzer(0);                              // na 8 keer stopt de buzzer
+//            if (TIMSK5 == 0x00)                     // als timer 5 uit staat
+//            {
+//                buzz = 0;                           // wordt de buzzer gereset en kan opnieuw aangezet worden
+//            }
+//        }
+        if ((PINF & (1<<PF4)) == 0)//((PINF & (1<<PF4)) == 0)                // nood stop indrukken
         {
             DEBOUNCE;
             PORTF &= ~(1<<PF7);                     // als de noodstop is ingedrukt brandt het ledje
-            buzzer(1);
-            Bluetooth_Getal = 20;
             status = 0;
+        }
+        if (Bluetooth_Getal == 6)//((PINF & (1<<PF4)) == 0)                // nood stop indrukken
+        {
+            DEBOUNCE;
+            PORTF &= ~(1<<PF7);                     // als de noodstop is ingedrukt brandt het ledje
+            Bluetooth_Getal = 20;
+            status = 99;
         }
 		switch(status)
 		{
         case 0: // nood_toestand
-
+            buzzer(1);
             knipperLichten(1);
             h_bridge_set_percentage(0);
             h_bridge_set_percentage2(0);
@@ -59,7 +70,7 @@ int main(void)
             LCD_Naar_Locatie(1, 1);
             Stuur_LCD_String("Noodtoestand");
 
-            if (((PINF & (1<<PF4)) != 0) && (Bluetooth_Getal == 7))//((PINF & (1<<PF4)) != 0)     //Noodstop loslaten
+            if ((PINF & (1<<PF4)) != 0)//((PINF & (1<<PF4)) != 0)     //Noodstop loslaten
             {
                 DEBOUNCE;
                 PORTF |= (1<<PF7);
@@ -67,10 +78,29 @@ int main(void)
                 status = 1;
             }
             break;
+        case 99: // nood_toestand
+            buzzer(1);
+            knipperLichten(1);
+            h_bridge_set_percentage(0);
+            h_bridge_set_percentage2(0);
 
+            LCD_Scherm_Leeg();
+            LCD_Naar_Locatie(1, 1);
+            Stuur_LCD_String("Noodtoestand");
+
+            if ((Bluetooth_Getal == 7) && ((PINF & (1<<PF4)) != 0))//((PINF & (1<<PF4)) != 0)     //Noodstop loslaten
+            {
+                DEBOUNCE;
+                PORTF |= (1<<PF7);
+                Bluetooth_Getal = 20;                  // als de noodstop weer wordt losgelaten gaat het ledje uit
+                status = 1;
+            }
+            break;
         case 1: // init_state
-            knipperLichten(0);          // uit
-            set_servo_direction(0);     // ingeklapt
+            buzzer(0);
+            knipperLichten(0);
+            servo1_set_percentage(50);    // ingeklapt
+            servo2_set_percentage(0);    // ingeklapt
             h_bridge_set_percentage(0);
             h_bridge_set_percentage2(0);
 
@@ -105,6 +135,7 @@ int main(void)
         case 3: // stijger_plaatsen
             h_bridge_set_percentage(0);
             knipperLichten(0);
+            buzzer(0);
 
             LCD_Scherm_Leeg();
            	LCD_Naar_Locatie(1, 1);
@@ -249,10 +280,7 @@ int main(void)
             buzzer(1); // aan
             knipperLichten(1); // aan
 
-            /*
-            MOTOR AAN??
             h_bridge_set_percentage2(-20);
-            */
 
             LCD_Scherm_Leeg();
             LCD_Naar_Locatie(1, 1);
@@ -268,12 +296,8 @@ int main(void)
             knipperLichten(1); // aan
             buzzer(1); // aan
 
-            /*
-            Servo's in??
-
             set_servo_direction(0); // ingeklapt
             _delay_ms(500);
-            */
 
             h_bridge_set_percentage(-80);    // keine motor
 
