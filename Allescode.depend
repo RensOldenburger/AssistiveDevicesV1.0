@@ -1,0 +1,47 @@
+# depslib dependency file v1.0
+1680785798 source:d:\schoolv2\projecttilhulp\allescode\fuse.c
+	<avr/io.h>
+
+1680770520 source:d:\schoolv2\projecttilhulp\allescode\h_bridge.c
+	<avr/io.h>
+	<avr/interrupt.h>
+	"h_bridge.h"
+
+1680770520 d:\schoolv2\projecttilhulp\allescode\h_bridge.h
+
+1680783941 source:d:\schoolv2\projecttilhulp\allescode\lcdenbluetooth.c
+	<avr/io.h>
+	<util/delay.h>
+	<stdlib.h>
+	<avr/interrupt.h>
+	"LCDenBluetooth.h"
+
+1680780816 d:\schoolv2\projecttilhulp\allescode\lcdenbluetooth.h
+	<stdint.h>
+
+1680770520 source:d:\schoolv2\projecttilhulp\allescode\servo.c
+	<avr/io.h>
+	<avr/interrupt.h>
+	"servo.h"
+
+1680770520 d:\schoolv2\projecttilhulp\allescode\servo.h
+
+1681125412 source:d:\schoolv2\projecttilhulp\allescode\main.c
+	"h_bridge.h"
+	"servo.h"
+	"Library.h"
+	<avr/interrupt.h>
+	<util/delay.h>
+	<avr/io.h>
+	<stdio.h>
+
+1681125368 source:d:\schoolv2\projecttilhulp\allescode\library.c
+	<avr/io.h>
+	<util/delay.h>
+	<stdlib.h>
+	<avr/interrupt.h>
+	"Library.h"
+
+1681125721 d:\schoolv2\projecttilhulp\allescode\library.h
+	<stdint.h>
+
