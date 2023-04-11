@@ -78,8 +78,8 @@ void init_Registers(void)
 	PORTF |= (1<<PF7);                                  // ledje in de noodknop init uit
 
 	//bedingingpaneel
-	PORTF |= (1<<opbouw_knop) | (1<<afbouw_knop) | (1<<neerzetten_knop) | (1<<nood_knop);   		// eneble alle knoppen voor input
-	DDRF |= (1<<opbouw_knop) | (1<<afbouw_knop) | (1<<neerzetten_knop) | (1<<nood_knop);		// eneble interne pullup resistor
+	PORTF |= (1<<opbouw_knop) | (1<<afbouw_knop) | (1<<neerzetten_knop) | (1<<nood_knop) | (1<<in_uit_klappen);   		// eneble alle knoppen voor input
+	DDRF |= (1<<opbouw_knop) | (1<<afbouw_knop) | (1<<neerzetten_knop) | (1<<nood_knop) | (1<<in_uit_klappen);		// eneble interne pullup resistor
 
 	//schakelaars
 	PORTA &= (1<<home_switch);

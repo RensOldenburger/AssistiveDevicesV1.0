@@ -189,7 +189,7 @@ int main(void)
                 DEBOUNCE;
                 status = 8;
             }
-            if (((PINF & (1<<afbouw_knop)) == 0) || (Bluetooth_Getal == 4))//((PINF & (1<<afbouw_knop)) == 0)       /Afbouwen
+            if (((PINF & (1<<afbouw_knop)) == 0) || (Bluetooth_Getal == 4))//((PINF & (1<<afbouw_knop)) == 0)       //Afbouwen
             {
                 DEBOUNCE;
                 status = 9;
@@ -203,6 +203,7 @@ int main(void)
 
             LCD_Scherm_Leeg();
             LCD_Naar_Locatie(1, 1);
+
 	    	Stuur_LCD_String("Door bouwen");
 
             if ((PINA & (1<<home_switch)) == 0)

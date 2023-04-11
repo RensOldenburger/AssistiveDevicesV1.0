@@ -1888,7 +1888,7 @@ void init_Registers(void)
 0000091c <.Loc.65>:
 
 	//bedingingpaneel
-	PORTF |= (1<<opbouw_knop) | (1<<afbouw_knop) | (1<<neerzetten_knop) | (1<<nood_knop);   		// eneble alle knoppen voor input
+	PORTF |= (1<<opbouw_knop) | (1<<afbouw_knop) | (1<<neerzetten_knop) | (1<<nood_knop) | (1<<in_uit_klappen);   		// eneble alle knoppen voor input
      91c:	81 e3       	ldi	r24, 0x31	; 49
      91e:	90 e0       	ldi	r25, 0x00	; 0
      920:	fc 01       	movw	r30, r24
@@ -1897,12 +1897,12 @@ void init_Registers(void)
      926:	90 e0       	ldi	r25, 0x00	; 0
 
 00000928 <.Loc.66>:
-     928:	27 61       	ori	r18, 0x17	; 23
+     928:	2f 61       	ori	r18, 0x1F	; 31
      92a:	fc 01       	movw	r30, r24
      92c:	20 83       	st	Z, r18
 
 0000092e <.Loc.67>:
-	DDRF |= (1<<opbouw_knop) | (1<<afbouw_knop) | (1<<neerzetten_knop) | (1<<nood_knop);		// eneble interne pullup resistor
+	DDRF |= (1<<opbouw_knop) | (1<<afbouw_knop) | (1<<neerzetten_knop) | (1<<nood_knop) | (1<<in_uit_klappen);		// eneble interne pullup resistor
      92e:	80 e3       	ldi	r24, 0x30	; 48
      930:	90 e0       	ldi	r25, 0x00	; 0
      932:	fc 01       	movw	r30, r24
@@ -1911,7 +1911,7 @@ void init_Registers(void)
      938:	90 e0       	ldi	r25, 0x00	; 0
 
 0000093a <.Loc.68>:
-     93a:	27 61       	ori	r18, 0x17	; 23
+     93a:	2f 61       	ori	r18, 0x1F	; 31
      93c:	fc 01       	movw	r30, r24
      93e:	20 83       	st	Z, r18
 
@@ -8534,7 +8534,7 @@ int main(void)
 
 0000307a <.L114>:
             }
-            if (((PINF & (1<<afbouw_knop)) == 0) || (Bluetooth_Getal == 4))//((PINF & (1<<afbouw_knop)) == 0)       /Afbouwen
+            if (((PINF & (1<<afbouw_knop)) == 0) || (Bluetooth_Getal == 4))//((PINF & (1<<afbouw_knop)) == 0)       //Afbouwen
     307a:	8f e2       	ldi	r24, 0x2F	; 47
     307c:	90 e0       	ldi	r25, 0x00	; 0
     307e:	dc 01       	movw	r26, r24
@@ -8921,6 +8921,7 @@ int main(void)
     32da:	0e 94 64 0b 	call	0x16c8	; 0x16c8 <LCD_Naar_Locatie>
 
 000032de <.Loc.332>:
+
 	    	Stuur_LCD_String("Door bouwen");
     32de:	8f e5       	ldi	r24, 0x5F	; 95
     32e0:	92 e0       	ldi	r25, 0x02	; 2
