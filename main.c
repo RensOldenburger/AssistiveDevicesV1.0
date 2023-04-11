@@ -70,7 +70,7 @@ int main(void)
 
         case 1: // init_state
             knipperLichten(0);
-            servo1_set_percentage(50);    // ingeklapt
+            servo1_set_percentage(0);    // ingeklapt
             servo2_set_percentage(0);    // ingeklapt
             h_bridge_set_percentage(0);
             h_bridge_set_percentage2(0);
@@ -225,11 +225,12 @@ int main(void)
             LCD_Naar_Locatie(1, 1);
 	    	Stuur_LCD_String("Afbouwen");
 
+            // moet pas na het uitklappen van de servo's
             h_bridge_set_percentage2(20);
             if ((PINA & (1<<top_switch)) == 0)
             {
                 DEBOUNCE;
-                status = 10;
+                status = 10; // steiger weghalen
             }
            break;
 
