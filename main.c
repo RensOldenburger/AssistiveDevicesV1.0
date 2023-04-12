@@ -8,6 +8,7 @@
 #include <stdio.h>
 
 int State_verander = 1;
+int middel_switch_var = 0;
 
 void init(void)
 {
@@ -196,6 +197,7 @@ int main(void)
 
         case 3: // Uitgeklapt
             h_bridge_set_percentage(0);
+            h_bridge_set_percentage2(0);
             knipperLichten(0);
             buzzer(0);
 
@@ -225,30 +227,55 @@ int main(void)
             }
             break;
 
-        case 4: // opbouwen
-            set_servo_direction(1); // uitgeklapt
+        case 4: // Naar beneden
+            set_servo_direction(0); // uitgeklapt
             buzzer(1); // aan
             knipperLichten(1); // aan
 
             if(State_verander == status)
             {
                 LCD_Scherm_Leeg();
-                LCD_Naar_Locatie(4, 1);
-                Stuur_LCD_String("Opbouwen");
+                LCD_Naar_Locatie(3, 1);
+                Stuur_LCD_String("Naar beneden");
+                LCD_Naar_Locatie(2, 2);
+                Stuur_LCD_String("voor opbouwen");
                 State_verander = 100;
 
                 _delay_ms(500); // om te zorgen dat de servo's uit zijn voor de motor aan gaat
             }
             if ((PINA & (1<<home_switch)) != 0)
             {
-                h_bridge_set_percentage2(-80);
-            }
-            if((PINA & (1<<home_switch)) == 0)
-            {
-                            h_bridge_set_percentage2(80);
+                DEBOUNCE;
+                h_bridge_set_percentage2(-50);
             }
 
-            if ((PINA & (1<<top_switch)) == 0)
+            if ((PINA & (1<<home_switch)) == 0)
+            {
+                DEBOUNCE;
+                h_bridge_set_percentage2(0);
+                status = 33;
+                State_verander = status;
+            }
+            break;
+        case 33: // opbouwen
+            set_servo_direction(1); // uitgeklapt
+            buzzer(1); // aan
+            knipperLichten(1); // aan
+            h_bridge_set_percentage2(80);
+
+            if(State_verander == status)
+            {
+                LCD_Scherm_Leeg();
+                LCD_Naar_Locatie(3, 1);
+                Stuur_LCD_String("Naar boven en");
+                LCD_Naar_Locatie(4, 2);
+                Stuur_LCD_String("Opbouwen");
+                State_verander = 100;
+
+                _delay_ms(500); // om te zorgen dat de servo's uit zijn voor de motor aan gaat
+            }
+
+            if ((PINL & (1<<top_switch)) == 0)
             {
                 DEBOUNCE;
                 status = 5;
@@ -289,13 +316,24 @@ int main(void)
             {
                 LCD_Scherm_Leeg();
                 LCD_Naar_Locatie(4, 1);
-                Stuur_LCD_String("Neerzetten");
+                Stuur_LCD_String("Op steiger");
+                LCD_Naar_Locatie(4, 1);
+                Stuur_LCD_String("neerzetten");
                 State_verander = 100;
             }
+
+            middel_switch_var = 0;
 
             if((PINA & (1<<middel_switch)) == 0)
             {
                 DEBOUNCE;
+                middel_switch_var = 1;
+            }
+
+            if(((PINA & (1<<middel_switch)) != 0) && (middel_switch_var == 1))
+            {
+                DEBOUNCE;
+                middel_switch_var = 0;
                 status = 7;
                 State_verander = status;
             }
@@ -332,14 +370,14 @@ int main(void)
             break;
 
         case 8: // door_bouwen
-            h_bridge_set_percentage2(80);
+            h_bridge_set_percentage2(-50);
             knipperLichten(1); // aan
             buzzer(1); // aan
 
             if(State_verander == status)
             {
                 LCD_Scherm_Leeg();
-                LCD_Naar_Locatie(2, 1);
+                LCD_Naar_Locatie(4, 1);
                 Stuur_LCD_String("Door bouwen");
                 State_verander = 100;
             }
@@ -367,8 +405,8 @@ int main(void)
                 _delay_ms(500); // om te zorgen dat de servo's uit zijn voor de motor aan gaat
             }
 
-            h_bridge_set_percentage2(20);
-            if ((PINA & (1<<top_switch)) == 0)
+            h_bridge_set_percentage2(50);
+            if ((PINL & (1<<top_switch)) == 0)
             {
                 DEBOUNCE;
                 status = 10; // steiger weghalen
@@ -378,6 +416,7 @@ int main(void)
 
         case 10: // stijger_weghalen
             knipperLichten(0); // uit
+            h_bridge_set_percentage2(0);
 
             if(State_verander == status)
             {
@@ -399,12 +438,14 @@ int main(void)
             buzzer(1); // aan
             knipperLichten(1); // aan
 
-            h_bridge_set_percentage2(-20);
+            h_bridge_set_percentage2(-50);
 
             if(State_verander == status)
             {
                 LCD_Scherm_Leeg();
-                LCD_Naar_Locatie(4, 1);
+                LCD_Naar_Locatie(5, 1);
+                Stuur_LCD_String("Beneden");
+                LCD_Naar_Locatie(5, 2);
                 Stuur_LCD_String("Neerzetten");
                 State_verander = 100;
             }
@@ -432,7 +473,7 @@ int main(void)
                 _delay_ms(500); // om te zorgen dat de servo's uit zijn voor de motor aan gaat
             }
 
-            h_bridge_set_percentage(-80);    // keine motor
+            h_bridge_set_percentage(-50);    // keine motor
 
             if ((PINA & (1<<ingeklapt_switch)) == 0)
             {
